@@ -1,0 +1,40 @@
+/* 
+header {
+  width: 50%;
+} 
+*/
+
+/* 
+  1rem = 16px
+  >root is relative to the browser setting, by default it's 16px
+    but might differ via browser setting ( but it's always defined by 16px)
+ > if you have 2rem element and then change e.g. font-size to 2em
+    it will double the ROOT so 2rem = 32px * 2 (em) = 64px total !!!IMPORTANT!!!
+  > em takes values based of rem(if rem is defined)!!
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+}
+
+h1 {
+  border: 2px dashed red;
+  width: 50%;
+  font-size: 3rem;
+  padding: 0.5em;
+}
+
+main {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 2rem;
+  width: 40ch;
+}

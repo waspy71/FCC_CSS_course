@@ -1,0 +1,26 @@
+/* color picker very useful
+ https://coolors.co/353535-bbbdf6-dccca3-d7263d-fb4d3d 
+ 
+ contrast checker so we can determine if e.g.
+ text color is matching the background
+ so it's not straining the eyes
+ https://coolors.co/contrast-checker/112a46-acc8e5
+ */
+ /* 
+    3 types of color options
+        rgb (0, 0, 0)
+        hexadecimal #ffefd5
+        hsl #333
+ */
+
+body {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    background-color: #ffefd5;
+    color: rgb(0,0,0);
+}
+
+p {
+    color: #333;
+}
