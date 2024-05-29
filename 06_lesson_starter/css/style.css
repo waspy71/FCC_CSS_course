@@ -1,0 +1,18 @@
+
+/* 
+  typography is the way that text
+  is arranged and presented
+*/
+
+
+body {
+  padding: 10%;
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+}
+
+
+
+input, button {
+  font-size: inherit;
+}
