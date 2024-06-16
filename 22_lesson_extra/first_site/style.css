@@ -1,0 +1,190 @@
+
+/* FROM */
+/* https://frontend.turing.edu/lessons/module-1/css-transitions-transformations */
+
+/* CSS RESET */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* PRACTICE 1 -------------------------------------------*/
+.practice {
+  background-color: yellow;
+  border-radius: 30px;
+  height: 300px;
+  width: 300px;
+  margin: 0 auto;
+  /* allows for smooth animation on ':hover' and when the cursor is moved away*/
+  /* transition: background-color 2s, border-radius 3s; */
+}
+
+.practice:hover {
+  background-color: #333;
+  border-radius: 50%;
+  /* if 'transition' is set up on ':hover' moving the cursor away wIll finish animation abruptly*/
+  /* transition: background-color 2s; */
+}
+
+/* PRACTICE 2 -------------------------------------------*/
+.container {
+  border: 1px solid grey;
+  height: 400px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.box {
+  background-color: yellow;
+  border-radius: 30px;
+  height: 300px;
+  width: 25%;
+  transition: all 1s;
+  /* 'transition-timing-function' has to come AFTER 'transition' to work */
+  transition-timing-function: steps(4, end);
+}
+
+.container:hover > .box {
+  background-color: green;
+  margin-left: 75%;
+}
+
+
+/* PRACTICE 3 -------------------------------------------*/
+
+.wrapper {
+  border: 1px solid #333;
+  height: 550px;
+  width: 100%;
+}
+
+.wrapper:hover > div.a {
+  background-color: tomato;
+  width: 100px;
+}
+
+.wrapper:hover > div.b {
+  background-color: tomato;
+  width: 200px;
+}
+.wrapper:hover > div.c {
+  background-color: tomato;
+  width: 300px;
+
+}
+.wrapper:hover > div.d {
+  background-color: tomato;
+  width: 400px;
+}
+
+.basket {
+  background-color: aliceblue;
+  border: 2px solid tomato;
+  width: 100px;
+  height: 100px;
+  margin: 30px auto;
+}
+
+div .a { 
+  background-color: green;
+  /* transition-delay: 0s; */
+  transition: all 2s 0s;
+ }
+div .b { 
+  background-color: yellow;
+  /* transition-delay: 1s; */
+  transition: all 2s 1s;
+ }
+div .c { 
+  background-color: blue;
+  /* transition-delay: 2s; */
+  transition: all 2s 2s;
+ }
+div .d { 
+  background-color: aquamarine;
+  /* transition-delay: 3s; */
+  transition: all 2s 3s;
+ }
+
+
+
+ /* PRACTICE 4 -------------------------------------------*/
+
+ .container-4 {
+  border: 1px solid grey;
+  height: 400px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.box-4 {
+  background-color: yellow;
+  border-top: 5px solid red;
+  height: 95px;
+  width: 100px;
+  /* -webkit-transform: rotate(-45deg); */
+  /* transform: rotate(1.5turn); */
+  transition: all 2s;
+}
+
+.container-4:hover .box-4 {
+  transform-origin: 200% 200%;
+  transform: rotate(1.5turn);
+}
+
+/* PRACTICE 5 ------------------------------------------- */
+
+div {
+  background-image: radial-gradient(rgb(146, 241, 95), rgb(254, 193, 25));
+  height: 200px;
+  width: 200px;
+  margin: 100px auto 0;
+}
+
+div:hover {
+  animation: testAnimation 2s 0s infinite linear;
+
+}
+
+@keyframes testAnimation {
+  0% {
+    transform: rotate(360deg);
+    border-radius: 10% 25% 10% 25%;
+  }
+  20% {
+    border-radius: 25% 0 25% 0;
+  }
+  40% {
+    border-radius: 50% 25% 50% 25%;
+  }
+  60% {
+    border-radius: 25% 50% 25% 50%;
+    background-color: aqua;
+
+  }
+  80% {
+    border-radius: 25% 25% 25% 25%;
+  }
+  100% {
+    border-radius: 10% 25% 10% 25%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
