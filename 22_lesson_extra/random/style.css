@@ -44,21 +44,6 @@ body {
   transform: translateX(75%) translateY(-50%);
 }
 
-/* .flag:hover .red {
-  animation: japan 2s 0s;
-}
-
-@keyframes japan {
-  0% {
-    transform: rotate(360deg);
-  }
-  100%{
-    border-radius: 50%;
-    width: 40%;
-    transform: translateX(75%) translateY(-75%);
-  }
-} */
-
 .flag2 {
   height: 200px;
   width: 300px;
@@ -81,4 +66,85 @@ body {
   width: 40%;
   border-radius: 50%;
 }
+
+
+/* SWISS FLAG */
+
+.flag3 {
+  background-color: red;
+  border: 1px solid black;
+  height: 200px;
+  width: 300px;
+  display: flex;
+  flex-flow: column nowrap;
+  position: relative;
+}
+
+.cross {
+  background-color: transparent;
+  color: transparent;
+  height: 50%;
+  width: 100%;
+}
+
+.cross,
+.cross::before,
+.cross::after {
+  position: absolute;
+}
+
+.cross::before,
+.cross::after {
+  content: '';
+}
+
+.cross::before {
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  transition: all 2s;
+}
+
+.cross::after {
+  background-color: transparent;
+  height: 100%;
+  width: 100%;
+  transform: translate(-42px, 0);
+  transition: all 2s;
+}
+
+.flag3:hover .cross::after {
+  background-color: white;
+  transform: translate(87px, 40px) rotate(360deg);
+  width: 14%;
+  height: 120%;
+}
+
+.flag3:hover .cross::before {
+  background-color: white;
+  transform: translate(90px, 80px) rotate(-360deg);
+  width: 40%;
+  height: 40%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
