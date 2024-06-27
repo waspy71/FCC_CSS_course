@@ -36,8 +36,43 @@ body {
 
 /* EXAMPLE 2 ---------------------------------------------------------- */
 
+.wrapper {
+  display: flex;
+}
 
+.box {
+  width: 150px;
+  height: 150px;
+  border: none;
+  border-radius: 4px;
+  outline-offset: 4px;
+}
 
+.box:first-of-type {
+  margin-right: 16px;
+}
+
+.accelerated.box {
+  transition: transform 750ms;
+  will-change: transform;
+  background: slateblue;
+}
+
+.accelerated.box:hover,
+.accelerated.box:focus {
+  transform: translateY(400px)
+}
+
+.janky.box {
+  transition: margin-top 750ms;
+  will-change: margin-top;
+  background: deeppink;
+}
+
+.janky.box:focus,
+.janky.box:hover {
+  margin-top: 400px;
+}
 
 
 
