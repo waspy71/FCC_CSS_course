@@ -9,12 +9,30 @@
 <body>
   <div class="frame">
     <div class="center">
-      <div class="menu-icon">
+      <div class="menu-icon" onclick='classChange()'>
         <div class="line-1 no-animation"></div>
         <div class="line-2 no-animation"></div>
         <div class="line-3 no-animation"></div>
       </div>
     </div>
   </div>
+  <script>
+    function classChange() {
+      let element = document.getElementsByClassName('menu-icon')
+      element[0].classList.toggle('active')
+
+      let noAnimElements = document.getElementsByClassName('no-animation')
+
+      let one = noAnimElements[0]
+      let two = noAnimElements[1]
+      let three = noAnimElements[2]
+
+      if (noAnimElements.length !== 0) {
+        one.classList.remove('no-animation')
+        two.classList.remove('no-animation')
+        three.classList.remove('no-animation')
+      }
+    }
+  </script>
 </body>
 </html>
