@@ -32,7 +32,17 @@
   animation: zoom-1 2s cubic-bezier(0.21, 0.98, 0.6, 0.99) infinite alternate both;
 }
 
-
+.dot-2 {
+  position: absolute;
+  z-index: 2;
+  width: 60px;
+  height: 60px;
+  top: 80px;
+  left: 80px;
+  background: #fff;
+  border-radius: 50%;
+  animation: zoom-2 2s cubic-bezier(0.21, 0.98, 0.6, 0.99) infinite alternate both;
+}
 
 @keyframes zoom-1 {
   0%, 70% {
@@ -45,6 +55,15 @@
   }
 }
 
-
+@keyframes zoom-2 {
+  0%, 40% {
+    box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.2);
+    transform: scale(0);
+  }
+  100% {
+    box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.3);
+    transform: scale(1);
+  }
+}
 
 
