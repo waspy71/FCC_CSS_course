@@ -78,6 +78,43 @@
   padding: 0 10px 0 25px;
 }
 
+.card .parameter span:before {
+  position: absolute;
+  left: 6px;
+  top: 6px;
+  display: block;
+  content: "";
+  width: 11px;
+  height: 3px;
+  border-radius: 3px;
+}
+.card .parameter .red:before {
+  background: #FA7373;
+}
+.card .parameter .blue:before {
+  background: #7BA2FF;
+}
+.card .statistic {
+  position: relative;
+  height: 81px;
+  width: 260px;
+  margin: 0 auto;
+}
+.card .statistic .line-1, .card .statistic .line-3, .card .statistic .line-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: #F2F2F2;
+}
+.card .statistic .line-2 {
+  top: 40px;
+}
+.card .statistic .line-3 {
+  top: inherit;
+  bottom: 0;
+}
 
 
 
