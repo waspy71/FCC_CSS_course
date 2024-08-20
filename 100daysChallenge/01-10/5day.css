@@ -161,6 +161,51 @@
   transform: rotate(45deg);
 }
 
+.card .statistic .data [class^=point-] {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  cursor: pointer;
+  z-index: 10;
+}
+.card .statistic .data [class^=point-]:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+  transform: translate3d(-50%, 0, 0);
+}
+.card .statistic .data.red [class^=point-], .card .statistic .data.red .tooltip, .card .statistic .data.red .tooltip:after {
+  background: #FA7373;
+}
+.card .statistic .data.red .point-1 {
+  left: 7px;
+  top: 43px;
+}
+.card .statistic .data.red .point-2 {
+  left: 48px;
+  top: 9px;
+}
+.card .statistic .data.red .point-3 {
+  left: 88px;
+  top: 20px;
+}
+.card .statistic .data.red .point-4 {
+  left: 128px;
+  top: 8px;
+}
+.card .statistic .data.red .point-5 {
+  left: 169px;
+  top: 35px;
+}
+.card .statistic .data.red .point-6 {
+  left: 209px;
+  top: 45px;
+}
+.card .statistic .data.red .point-7 {
+  left: 249px;
+  top: 16px;
+}
+
 
 
 
