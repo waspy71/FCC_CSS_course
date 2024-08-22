@@ -238,6 +238,52 @@
   top: 61px;
 }
 
+.card .statistic .data.blue [class^=point-], .card .statistic .data.blue .tooltip, .card .statistic .data.blue .tooltip:after {
+  background: #7BA2FF;
+}
+.card .statistic .data.blue .point-1 {
+  left: 7px;
+  top: 58px;
+}
+.card .statistic .data.blue .point-2 {
+  left: 48px;
+  top: 47px;
+}
+.card .statistic .data.blue .point-3 {
+  left: 88px;
+  top: 62px;
+}
+.card .statistic .data.blue .point-4 {
+  left: 128px;
+  top: 52px;
+}
+.card .statistic .data.blue .point-5 {
+  left: 169px;
+  top: 58px;
+}
+.card .statistic .data.blue .point-6 {
+  left: 209px;
+  top: 71px;
+}
+.card .statistic .data.blue .point-7 {
+  left: 249px;
+  top: 61px;
+}
+.card .days {
+  width: 280px;
+  margin: 0 auto;
+}
+.card .days .day {
+  display: block;
+  float: left;
+  width: 14.2857142857%;
+  font-size: 9px;
+  color: #949494;
+  line-height: 30px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
 
 
 
