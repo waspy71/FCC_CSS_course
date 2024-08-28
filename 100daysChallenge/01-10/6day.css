@@ -89,3 +89,25 @@
 .profile .actions {
   margin-top: 33px;
 }
+.profile .actions .btn {
+  display: block;
+  width: 120px;
+  height: 30px;
+  margin: 0 auto 10px auto;
+  background: none;
+  border: 1px solid #786450;
+  border-radius: 15px;
+  font-size: 12px;
+  font-weight: 600;
+  box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
+  color: #786450;
+}
+.profile .actions .btn:hover {
+  background: #786450;
+  color: #fff;
+}
+
+.stats {
+  float: left;
+}
