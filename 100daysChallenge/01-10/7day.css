@@ -102,3 +102,42 @@
   opacity: 0;
   pointer-events: none;
 }
+.panel .header .search-input:focus {
+  outline: none;
+}
+.panel .header .search-input.active {
+  transform: translateX(0);
+  opacity: 1;
+  pointer-events: all;
+}
+.panel .header .search-icon {
+  position: absolute;
+  z-index: 2;
+  font-size: 21px;
+  color: #B2DAFF;
+  top: 18px;
+  right: 20px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.panel .header .search-icon:hover {
+  color: #fff;
+}
+.panel .notifications {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+}
+.panel .notifications .line {
+  position: absolute;
+  top: 0;
+  left: 27px;
+  bottom: 0;
+  width: 3px;
+  background: #EBEBEB;
+}
+.panel .notifications .notification {
+  position: relative;
+  z-index: 2;
+  margin: 25px 20px 25px 43px;
+}
