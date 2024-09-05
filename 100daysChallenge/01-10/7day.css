@@ -189,3 +189,46 @@
 .panel .notifications .notification p b {
   font-weight: 600;
 }
+
+.menu {
+  position: absolute;
+  width: 170px;
+  height: 270px;
+  top: 65px;
+  left: 50px;
+  background: #43627D;
+  border-radius: 3px;
+  transition: all 0.5s ease-in-out;
+  transform: translate3d(20px, 0, 0);
+}
+.menu.active {
+  box-shadow: 5px 5px 8px 0 rgba(0, 0, 0, 0.2);
+  transform: translate3d(0, 0, 0);
+}
+.menu ul {
+  margin: 0;
+  padding: 10px 0;
+}
+.menu li {
+  color: #93B2CD;
+  margin: 0;
+  padding: 18px 17px;
+  list-style: none;
+  font-size: 14px;
+  line-height: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.menu li:hover {
+  color: #fff;
+  background: #385269;
+}
+.menu li span {
+  display: block;
+  float: left;
+  margin-right: 8px;
+  margin-top: -1px;
+}
+.menu li .fa-gear, .menu li .fa-user, .menu li .fa-bell {
+  margin-top: 0;
+}
