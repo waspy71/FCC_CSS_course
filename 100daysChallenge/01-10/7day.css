@@ -232,3 +232,25 @@
 .menu li .fa-gear, .menu li .fa-user, .menu li .fa-bell {
   margin-top: 0;
 }
+
+@-webkit-keyframes here-am-i {
+  from {
+    transform: translate3d(0, 50px, 0);
+    opacity: 0;
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+@keyframes here-am-i {
+  from {
+    transform: translate3d(0, 50px, 0);
+    opacity: 0;
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
