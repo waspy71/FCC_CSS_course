@@ -10,7 +10,7 @@
   <div class="frame">
     <div class="panel">
       <div class="header">
-        <div class="menu-icon">
+        <div class="menu-icon" onclick="menuToggle()">
           <div class="dash-top"></div>
           <div class="dash-bottom"></div>
           <div class="circle"></div>
@@ -53,6 +53,14 @@
       function searchActive() {
         let element = document.getElementsByClassName('search-input')
         element[0].classList.toggle('active')
+      }
+
+      function menuToggle() {
+        let panelElement = document.getElementsByClassName('panel')
+        panelElement[0].classList.toggle('show-menu')
+
+        let menuElement = document.getElementsByClassName('menu')
+        menuElement[0].classList.toggle('active')
       }
     </script>
   </div>
