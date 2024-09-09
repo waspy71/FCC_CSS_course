@@ -5,6 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="7day.css" >
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
 <body>
   <div class="frame">
@@ -17,7 +23,9 @@
         </div>
         <span class="title">Notifications</span>
         <input type="text" class="search-input" placeholder="Search ...">
-        <div class="fa fa-search search-icon" onclick="searchActive()">x</div>
+        <div class="search-icon" onclick="searchActive()">
+          <span class="material-symbols-outlined">search</span>
+        </div>
       </div>
       
       <div class="notifications clearfix">
@@ -42,11 +50,33 @@
     
     <div class="menu">
       <ul>
-        <li><span class="fa fa-dashboard"></span>Dashboard</li>
-        <li><span class="fa fa-user"></span>Profile</li>
-        <li><span class="fa fa-bell"></span>Notifications</li>
-        <li><span class="fa fa-comments"></span>Messages</li>
-        <li><span class="fa fa-gear"></span>Settings</li>
+        <li>
+          <span class="fa fa-dashboard">
+            <span class="material-symbols-outlined">swap_driving_apps_wheel</span>
+          </span>
+          Dashboard
+        </li>
+        <li>
+          <span class="fa fa-user">
+            <span class="material-symbols-outlined">person</span>
+          </span>
+          Profile
+        </li>
+        <li><span class="fa fa-bell">
+          <span class="material-symbols-outlined">notifications</span>
+        </span>
+          Notifications
+        </li>
+        <li><span class="fa fa-comments">
+          <span class="material-symbols-outlined">forum</span>
+        </span>
+          Messages
+        </li>
+        <li><span class="fa fa-gear">
+          <span class="material-symbols-outlined">settings</span>
+        </span>
+          Settings
+        </li>
       </ul>
     </div>
     <script>

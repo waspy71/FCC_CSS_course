@@ -227,7 +227,7 @@
   display: block;
   float: left;
   margin-right: 8px;
-  margin-top: -1px;
+  margin-top: -3px;
 }
 .menu li .fa-gear, .menu li .fa-user, .menu li .fa-bell {
   margin-top: 0;
