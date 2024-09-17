@@ -34,7 +34,7 @@
   left: 20px;
   width: 50px;
   height: 50px;
-  transform: rotate(57deg);
+  transform: rotate(129deg);
 }
 .blubb-1:after {
   position: absolute;
@@ -56,7 +56,7 @@
   left: 20px;
   width: 50px;
   height: 50px;
-  transform: rotate(249deg);
+  transform: rotate(288deg);
 }
 .blubb-2:after {
   position: absolute;
@@ -78,7 +78,7 @@
   left: 20px;
   width: 50px;
   height: 50px;
-  transform: rotate(68deg);
+  transform: rotate(259deg);
 }
 .blubb-3:after {
   position: absolute;
@@ -100,7 +100,7 @@
   left: 20px;
   width: 50px;
   height: 50px;
-  transform: rotate(171deg);
+  transform: rotate(289deg);
 }
 .blubb-4:after {
   position: absolute;
@@ -122,7 +122,7 @@
   left: 20px;
   width: 50px;
   height: 50px;
-  transform: rotate(45deg);
+  transform: rotate(155deg);
 }
 .blubb-5:after {
   position: absolute;
@@ -144,7 +144,7 @@
   left: 20px;
   width: 50px;
   height: 50px;
-  transform: rotate(22deg);
+  transform: rotate(52deg);
 }
 .blubb-6:after {
   position: absolute;
@@ -166,7 +166,7 @@
   left: 20px;
   width: 50px;
   height: 50px;
-  transform: rotate(201deg);
+  transform: rotate(110deg);
 }
 .blubb-7:after {
   position: absolute;
@@ -188,7 +188,7 @@
   left: 20px;
   width: 50px;
   height: 50px;
-  transform: rotate(188deg);
+  transform: rotate(31deg);
 }
 .blubb-8:after {
   position: absolute;
@@ -210,7 +210,7 @@
   left: 38px;
   width: 8px;
   height: 8px;
-  transform: rotate(183deg);
+  transform: rotate(35deg);
 }
 .sparkle-1:after {
   position: absolute;
@@ -232,7 +232,7 @@
   left: 38px;
   width: 9px;
   height: 9px;
-  transform: rotate(124deg);
+  transform: rotate(179deg);
 }
 .sparkle-2:after {
   position: absolute;
@@ -254,7 +254,7 @@
   left: 38px;
   width: 10px;
   height: 10px;
-  transform: rotate(201deg);
+  transform: rotate(132deg);
 }
 .sparkle-3:after {
   position: absolute;
@@ -276,7 +276,7 @@
   left: 38px;
   width: 11px;
   height: 11px;
-  transform: rotate(91deg);
+  transform: rotate(162deg);
 }
 .sparkle-4:after {
   position: absolute;
@@ -298,7 +298,7 @@
   left: 38px;
   width: 12px;
   height: 12px;
-  transform: rotate(223deg);
+  transform: rotate(18deg);
 }
 .sparkle-5:after {
   position: absolute;
@@ -320,7 +320,7 @@
   left: 38px;
   width: 13px;
   height: 13px;
-  transform: rotate(8deg);
+  transform: rotate(294deg);
 }
 .sparkle-6:after {
   position: absolute;
@@ -342,7 +342,7 @@
   left: 38px;
   width: 14px;
   height: 14px;
-  transform: rotate(46deg);
+  transform: rotate(97deg);
 }
 .sparkle-7:after {
   position: absolute;
@@ -364,7 +364,7 @@
   left: 38px;
   width: 15px;
   height: 15px;
-  transform: rotate(263deg);
+  transform: rotate(92deg);
 }
 .sparkle-8:after {
   position: absolute;
@@ -378,4 +378,66 @@
   -webkit-animation: rotate 5.1s ease-in-out 1.6s infinite;
           animation: rotate 5.1s ease-in-out 1.6s infinite;
   filter: blur(3px);
+}
+
+.sparkle-9 {
+  position: absolute;
+  top: 38px;
+  left: 38px;
+  width: 16px;
+  height: 16px;
+  transform: rotate(215deg);
+}
+.sparkle-9:after {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 16px;
+  height: 16px;
+  background: #fff;
+  border-radius: 50%;
+  transform-origin: 42px 42px;
+  -webkit-animation: rotate 5.3s ease-in-out 1.8s infinite;
+          animation: rotate 5.3s ease-in-out 1.8s infinite;
+  filter: blur(3px);
+}
+
+.sparkle-10 {
+  position: absolute;
+  top: 38px;
+  left: 38px;
+  width: 17px;
+  height: 17px;
+  transform: rotate(217deg);
+}
+.sparkle-10:after {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 17px;
+  height: 17px;
+  background: #fff;
+  border-radius: 50%;
+  transform-origin: 40px 40px;
+  -webkit-animation: rotate 5.5s ease-in-out 2s infinite;
+          animation: rotate 5.5s ease-in-out 2s infinite;
+  filter: blur(3px);
+}
+
+@-webkit-keyframes rotate {
+  from {
+    transform: rotate(0deg) translate3d(0, 0, 0);
+  }
+  to {
+    transform: rotate(360deg) translate3d(0, 0, 0);
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg) translate3d(0, 0, 0);
+  }
+  to {
+    transform: rotate(360deg) translate3d(0, 0, 0);
+  }
 }
