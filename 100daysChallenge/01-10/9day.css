@@ -48,3 +48,55 @@
   top: 56px;
   left: 10px;
 }
+.moon .crater-4, .moon .crater-9, .moon .crater-8, .moon .crater-7, .moon .crater-6, .moon .crater-5 {
+  width: 6px;
+  height: 6px;
+  top: 37px;
+  left: 49px;
+}
+.moon .crater-5 {
+  top: 24px;
+  left: 61px;
+}
+.moon .crater-6 {
+  top: 55px;
+  left: 33px;
+}
+.moon .crater-7 {
+  top: 17px;
+  left: 46px;
+}
+.moon .crater-8 {
+  top: 28px;
+  left: 27px;
+}
+.moon .crater-9 {
+  top: 39px;
+  left: 17px;
+}
+.moon .crater-10, .moon .crater-11 {
+  width: 4px;
+  height: 4px;
+  top: 25px;
+  left: 15px;
+}
+.moon .crater-11 {
+  top: 37px;
+  left: 37px;
+}
+
+.hill-bg-1, .hill-fg-1, .hill-fg-3, .hill-fg-2, .hill-bg-2 {
+  position: absolute;
+  z-index: 2;
+  width: 337px;
+  height: 281px;
+  top: 201px;
+  left: -57px;
+  background: #26314F;
+  border-radius: 50%;
+}
+
+.hill-bg-2 {
+  top: 197px;
+  left: 177px;
+}
