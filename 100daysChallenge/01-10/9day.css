@@ -100,3 +100,56 @@
   top: 197px;
   left: 177px;
 }
+
+.hill-fg-1, .hill-fg-3, .hill-fg-2 {
+  background: #303C5D;
+  top: 248px;
+  left: -137px;
+}
+
+.hill-fg-2 {
+  top: 221px;
+  left: 63px;
+}
+
+.hill-fg-3 {
+  top: 248px;
+  left: 292px;
+}
+
+.front {
+  position: absolute;
+  z-index: 10;
+  width: 400px;
+  height: 90px;
+  left: 0px;
+  bottom: 0px;
+  background: #fff;
+}
+.front .temperature {
+  float: left;
+  margin-left: 20px;
+  font-size: 45px;
+  line-height: 90px;
+}
+.front .info {
+  float: left;
+  margin: 25px 0 0 13px;
+  font-size: 15px;
+  line-height: 20px;
+}
+.front .preview {
+  float: right;
+  font-weight: 400;
+  text-align: right;
+  font-size: 15px;
+  line-height: 20px;
+  margin: 25px 20px 0 0;
+}
+.front .preview td {
+  padding: 0 3px;
+  text-transform: uppercase;
+}
+.front .preview td:first-child {
+  font-weight: 300;
+}
