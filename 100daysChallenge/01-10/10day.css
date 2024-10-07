@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,400);
+@import url(https://100dayscss.com/codepen/css/font-awesome.min.css);
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+  background: #4C4C4C;
+  color: #fff;
+  font-size: 12px;
+  line-height: 100%;
+  text-transform: uppercase;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.center {
+  position: absolute;
+  width: 212px;
+  height: 212px;
+  top: 87px;
+  left: 87px;
+  background: #242424;
+  border: 7px solid #3A3A3A;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.date {
+  position: absolute;
+  top: 68px;
+  width: 100%;
+}
+
+.time {
+  position: absolute;
+  top: 80px;
+  width: 100%;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 100%;
+  margin: 4px 0;
+}
+
+.beat {
+  position: absolute;
+  top: 129px;
+  left: 57px;
+}
+.beat span {
+  color: #F85B5B;
+  font-size: 10px;
+  float: left;
+  margin-top: 1px;
+  margin-right: 4px;
+  -webkit-animation: beat 0.9s ease-in-out infinite;
+          animation: beat 0.9s ease-in-out infinite;
+}
+
+.energy {
+  position: absolute;
+  top: 129px;
+  right: 55px;
+}
+
+
+
