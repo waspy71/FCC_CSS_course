@@ -69,5 +69,67 @@
   right: 55px;
 }
 
+.point-set-1 {
+  position: absolute;
+  height: 188px;
+  width: 188px;
+  top: 12px;
+  left: 12px;
+  transform: rotate(0deg);
+}
+.point-set-1 .point-1, .point-set-1 .point-4, .point-set-1 .point-3, .point-set-1 .point-2 {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  top: 0;
+  left: 93px;
+  background: #D3D3D3;
+  border-radius: 50%;
+}
+.point-set-1 .point-2 {
+  top: 93px;
+  left: auto;
+  right: 0;
+}
+.point-set-1 .point-3 {
+  top: auto;
+  bottom: 0;
+}
+.point-set-1 .point-4 {
+  top: 93px;
+  left: 0;
+}
+
+.point-set-2 {
+  position: absolute;
+  height: 188px;
+  width: 188px;
+  top: 12px;
+  left: 12px;
+  transform: rotate(6deg);
+}
+.point-set-2 .point-1, .point-set-2 .point-4, .point-set-2 .point-3, .point-set-2 .point-2 {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  top: 0;
+  left: 93px;
+  background: #D3D3D3;
+  border-radius: 50%;
+}
+.point-set-2 .point-2 {
+  top: 93px;
+  left: auto;
+  right: 0;
+}
+.point-set-2 .point-3 {
+  top: auto;
+  bottom: 0;
+}
+.point-set-2 .point-4 {
+  top: 93px;
+  left: 0;
+}
+
 
 
