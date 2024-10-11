@@ -286,5 +286,67 @@
   left: 0;
 }
 
+.point-set-8 {
+  position: absolute;
+  height: 188px;
+  width: 188px;
+  top: 12px;
+  left: 12px;
+  transform: rotate(42deg);
+}
+.point-set-8 .point-1, .point-set-8 .point-4, .point-set-8 .point-3, .point-set-8 .point-2 {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  top: 0;
+  left: 93px;
+  background: #D3D3D3;
+  border-radius: 50%;
+}
+.point-set-8 .point-2 {
+  top: 93px;
+  left: auto;
+  right: 0;
+}
+.point-set-8 .point-3 {
+  top: auto;
+  bottom: 0;
+}
+.point-set-8 .point-4 {
+  top: 93px;
+  left: 0;
+}
+
+.point-set-9 {
+  position: absolute;
+  height: 188px;
+  width: 188px;
+  top: 12px;
+  left: 12px;
+  transform: rotate(48deg);
+}
+.point-set-9 .point-1, .point-set-9 .point-4, .point-set-9 .point-3, .point-set-9 .point-2 {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  top: 0;
+  left: 93px;
+  background: #D3D3D3;
+  border-radius: 50%;
+}
+.point-set-9 .point-2 {
+  top: 93px;
+  left: auto;
+  right: 0;
+}
+.point-set-9 .point-3 {
+  top: auto;
+  bottom: 0;
+}
+.point-set-9 .point-4 {
+  top: 93px;
+  left: 0;
+}
+
 
 
