@@ -74,3 +74,71 @@
 .profile:hover .overlay {
   opacity: 0.4;
 }
+
+.detail {
+  display: none;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  pointer-events: none;
+  font-size: 0;
+}
+.detail.active {
+  pointer-events: all;
+}
+.detail.active .header {
+  transform: translate3d(0, 0, 0);
+  transition: all 0.6s ease-out;
+}
+.detail.active .image {
+  transform: translate3d(0, 0, 0);
+  transition: all 0.6s ease-out 0.3s;
+}
+.detail.active .infos {
+  transform: translate3d(0, 0, 0);
+  transition: all 0.6s ease-out;
+}
+.detail.active .close {
+  transform: rotate(45deg) translate3d(0, 0, 0);
+  transition: background 0.3s ease-in-out, transform 0.6s ease-out 0.6s;
+}
+.detail .close {
+  position: absolute;
+  z-index: 2;
+  width: 50px;
+  height: 50px;
+  top: 10px;
+  right: 10px;
+  background: #EC6565;
+  border-radius: 50%;
+  transition: background 0.3s ease-in-out, transform 0.5s ease-in;
+  transform: rotate(45deg) translate3d(-105%, -105%, 0);
+  cursor: pointer;
+}
+.detail .close:before {
+  position: absolute;
+  content: "";
+  width: 14px;
+  height: 2px;
+  top: 24px;
+  left: 18px;
+  background: #fff;
+  transition: all 0.3s ease-in-out;
+}
+.detail .close:after {
+  position: absolute;
+  content: "";
+  width: 2px;
+  height: 14px;
+  top: 18px;
+  left: 24px;
+  background: #fff;
+  transition: all 0.3s ease-in-out;
+}
+.detail .close:hover {
+  background: #fff;
+}
