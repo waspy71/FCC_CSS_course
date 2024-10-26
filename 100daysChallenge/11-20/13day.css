@@ -202,3 +202,29 @@
   color: #EC6565;
   box-shadow: 2px 3px 6px 0 rgba(0, 0, 0, 0.2);
 }
+.detail .action .btn .fa {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  line-height: 20px;
+  font-size: 19px;
+  padding-top: 12px;
+}
+.detail .action .btn .fa-phone {
+  font-size: 22px;
+}
+.detail .action .btn .fa-comment {
+  font-size: 20px;
+  padding-top: 10px;
+  left: 2px;
+}
+.detail .action .btn .fa-heart {
+  top: 1px;
+  left: 2px;
+}
+
+#detail-1 {
+  display: block;
+}
