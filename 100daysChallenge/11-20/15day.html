@@ -24,5 +24,65 @@
       <div class="upload-btn">Upload file</div>
     </div>
   </div>
+  <script>
+
+    let droppedFiles = false
+    let fileName = ''
+    let dropzone = document.getElementsByClassName('dropzone')[0]
+    let button = document.getElementsByClassName('upload-btn')[0]
+    let uploading = false
+    let syncing = document.getElementsByClassName('syncing')[0]
+    let done = document.getElementsByClassName('done')[0]
+    let bar = document.getElementsByClassName('bar')[0]
+    let input = document.getElementsByClassName('input')[0]
+
+    function addListenerMulti(element, eventNames, listener) {
+      eventNames.split(' ').forEach(e => element.addEventListener(e, listener, false))
+    }
+
+    function startUpload() {
+      if(!uploading && fileName !== '') {
+        uploading = true
+        button.textContent = 'Uploading...'
+        dropzone.style.opacity = '0'
+        syncing.classList.toggle('active')
+        done.classList.toggle('active')
+        bar.classList.toggle('active')
+        window.setTimeout(showDone, 3200)
+      }
+    }
+
+    function showDone() {
+      button.textContent = 'Done'
+    }
+
+    addListenerMulti(dropzone, "drag dragstart dragend dragover dragenter dragleave drop", function(e) {
+      e.preventDefault()
+      e.stopPropagation()
+    })
+    addListenerMulti(dropzone, 'dragover dragenter', function() {
+      dropzone.classList.toggle('is-dragover')
+    })
+    addListenerMulti(dropzone, 'dragleave dragend drop', function() {
+      dropzone.classList.toggle('is-dragover')
+    })
+    addListenerMulti(dropzone, 'drop', function(e) {
+      fileName = e.target.files[0]['name']
+      document.getElementsByClassName('filename')[0].textContent = fileName
+      document.getElementsByClassName('upload')[0].style.display = 'none'
+    })
+
+    button.addEventListener('click', function() {
+      startUpload()
+    })
+
+    input.addEventListener('change', function(e) {
+      fileName = e.target.files[0]['name']
+      document.getElementsByClassName('filename')[0].textContent = fileName
+      document.getElementsByClassName('upload')[0].style.display = 'none'
+    })
+
+
+  </script>
 </body>
 </html>
