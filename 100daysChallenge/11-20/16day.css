@@ -65,3 +65,75 @@
   width: 4px;
   height: 200px;
 }
+.octa-sparkles .sparkle:before, .octa-sparkles .sparkle:after {
+  display: block;
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 25px;
+  top: 0;
+  left: 0;
+  border-radius: 2px;
+  background: #fff;
+}
+.octa-sparkles .sparkle:after {
+  top: auto;
+  bottom: 0;
+}
+.octa-sparkles .s2 {
+  transform: rotate(45deg);
+}
+.octa-sparkles .s3 {
+  transform: rotate(90deg);
+}
+.octa-sparkles .s4 {
+  transform: rotate(135deg);
+}
+
+.triangle {
+  position: absolute;
+  width: 106px;
+  height: 90px;
+  top: 145px;
+  left: 147px;
+  fill: #fff;
+  -webkit-animation: triangle 5s ease-in-out infinite;
+          animation: triangle 5s ease-in-out infinite;
+}
+
+.triangle-sparkles {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 100px;
+  left: 100px;
+  -webkit-animation: triangle-sparkle 5s ease-in-out infinite;
+          animation: triangle-sparkle 5s ease-in-out infinite;
+}
+.triangle-sparkles .sparkle {
+  position: absolute;
+  top: 0;
+  left: 98px;
+  width: 4px;
+  height: 200px;
+}
+.triangle-sparkles .sparkle:before, .triangle-sparkles .sparkle:after {
+  display: block;
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 25px;
+  top: 0;
+  left: 0;
+  border-radius: 2px;
+  background: #fff;
+}
+.triangle-sparkles .s1 {
+  top: 10px;
+}
+.triangle-sparkles .s2 {
+  transform: rotate(124deg);
+}
+.triangle-sparkles .s3 {
+  transform: rotate(237deg);
+}
