@@ -137,3 +137,94 @@
 .triangle-sparkles .s3 {
   transform: rotate(237deg);
 }
+
+@-webkit-keyframes blobby {
+  0% {
+    transform: translate3d(0, -300px, 0) scaleY(1.2);
+  }
+  10% {
+    transform: translate3d(0, 50px, 0) scaleY(0.8);
+  }
+  14% {
+    transform: translate3d(0, -30px, 0) scaleY(1.1);
+  }
+  18% {
+    transform: translate3d(0, 10px, 0) scaleY(0.9);
+  }
+  20%, 22% {
+    transform: translate3d(0, 0, 0) scaleY(1);
+  }
+  26% {
+    transform: translate3d(0, 0, 0) scale(1.2);
+  }
+  32%, 74% {
+    transform: translate3d(0, 0, 0) scale(0);
+  }
+  80% {
+    transform: translate3d(0, 0, 0) scale(1.2);
+  }
+  84% {
+    transform: translate3d(0, 0, 0) scale(0.9);
+  }
+  86%, 88% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  92% {
+    transform: translate3d(0, -30px, 0) scaleY(0.9);
+  }
+  100% {
+    transform: translate3d(0, 300px, 0) scaleY(1.2);
+  }
+}
+
+@keyframes blobby {
+  0% {
+    transform: translate3d(0, -300px, 0) scaleY(1.2);
+  }
+  10% {
+    transform: translate3d(0, 50px, 0) scaleY(0.8);
+  }
+  14% {
+    transform: translate3d(0, -30px, 0) scaleY(1.1);
+  }
+  18% {
+    transform: translate3d(0, 10px, 0) scaleY(0.9);
+  }
+  20%, 22% {
+    transform: translate3d(0, 0, 0) scaleY(1);
+  }
+  26% {
+    transform: translate3d(0, 0, 0) scale(1.2);
+  }
+  32%, 74% {
+    transform: translate3d(0, 0, 0) scale(0);
+  }
+  80% {
+    transform: translate3d(0, 0, 0) scale(1.2);
+  }
+  84% {
+    transform: translate3d(0, 0, 0) scale(0.9);
+  }
+  86%, 88% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  92% {
+    transform: translate3d(0, -30px, 0) scaleY(0.9);
+  }
+  100% {
+    transform: translate3d(0, 300px, 0) scaleY(1.2);
+  }
+}
+@-webkit-keyframes blobby-ring {
+  0%, 74% {
+    transform: translate3d(0, 0, 0) scale(0);
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  84%, 100% {
+    transform: translate3d(0, 0, 0) scale(1.4);
+    opacity: 0;
+  }
+}
