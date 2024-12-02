@@ -65,3 +65,68 @@
   -webkit-animation: big 1.5s ease-out;
           animation: big 1.5s ease-out;
 }
+.circle-big .text {
+  position: absolute;
+  width: 100%;
+  top: 37px;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 400;
+  line-height: 22px;
+}
+.circle-big .text .small {
+  font-size: 14px;
+  color: #648192;
+}
+
+.circles-small {
+  margin: 0 auto;
+  width: 400px;
+  height: 80px;
+  text-align: center;
+}
+
+.circle-small {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+  margin: 0 20px;
+}
+.circle-small svg {
+  width: 80px;
+  height: 80px;
+}
+.circle-small .bg {
+  fill: none;
+  stroke-width: 6px;
+  stroke: #1B2A33;
+}
+.circle-small .progress {
+  fill: none;
+  stroke-width: 6px;
+  stroke: #5CE1EC;
+  stroke-linecap: round;
+  stroke-dasharray: 232.36;
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+}
+.circle-small .progress.one {
+  stroke-dashoffset: 80;
+  -webkit-animation: one 1.5s ease-out;
+          animation: one 1.5s ease-out;
+}
+.circle-small .progress.two {
+  stroke-dashoffset: 140;
+  -webkit-animation: two 1.5s ease-out;
+          animation: two 1.5s ease-out;
+}
+.circle-small .text {
+  position: absolute;
+  width: 100%;
+  top: 26px;
+  font-size: 17px;
+  text-align: center;
+  font-weight: 400;
+  line-height: 16px;
+}
