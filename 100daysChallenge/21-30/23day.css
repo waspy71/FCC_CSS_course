@@ -66,3 +66,66 @@
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
+.bracket:before, .bracket:after {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 25px;
+  height: 4px;
+  background: #fff;
+}
+.bracket.left {
+  left: 50px;
+}
+.bracket.left:before {
+  top: 0;
+  left: 0;
+  transform-origin: 0% 50%;
+  -webkit-animation: bracket-line 0.2s ease-out 2.1s;
+          animation: bracket-line 0.2s ease-out 2.1s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.bracket.left:after {
+  bottom: 0;
+  left: 0;
+  transform-origin: 0% 50%;
+  -webkit-animation: bracket-line 0.2s ease-out 2.1s;
+          animation: bracket-line 0.2s ease-out 2.1s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.bracket.right {
+  right: 50px;
+}
+.bracket.right:before {
+  top: 0;
+  right: 0;
+  transform-origin: 100% 50%;
+  -webkit-animation: bracket-line 0.2s ease-out 2.1s;
+          animation: bracket-line 0.2s ease-out 2.1s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.bracket.right:after {
+  bottom: 0;
+  right: 0;
+  transform-origin: 100% 50%;
+  -webkit-animation: bracket-line 0.2s ease-out 2.1s;
+          animation: bracket-line 0.2s ease-out 2.1s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.big {
+  position: absolute;
+  z-index: 5;
+  top: 173px;
+  width: 400px;
+  text-align: center;
+  font-weight: 800;
+  font-size: 50px;
+  color: #FFFFFF;
+  line-height: 50px;
+  text-transform: uppercase;
+}
