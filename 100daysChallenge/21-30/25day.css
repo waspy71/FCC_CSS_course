@@ -85,3 +85,73 @@
 .card img {
   margin-bottom: 18px;
 }
+.card p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  margin: 2px 0;
+}
+.card p.name {
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: 600;
+}
+.card .actions {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40px;
+}
+.card .actions a {
+  float: left;
+  width: 50%;
+  text-align: center;
+  line-height: 40px;
+  text-decoration: none;
+  color: #1F8DE4;
+  font-weight: 400;
+  font-size: 12px;
+}
+.card .actions .divide {
+  position: absolute;
+  width: 1px;
+  height: 20px;
+  left: 50%;
+  top: 10px;
+  background: #91CCFB;
+}
+
+@-webkit-keyframes hovering {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(0, -5px, 0);
+  }
+}
+
+@keyframes hovering {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(0, -5px, 0);
+  }
+}
+@-webkit-keyframes shadow {
+  from {
+    transform: scale(1) translate3d(0, 0, 0);
+  }
+  to {
+    transform: scale(1.25) translate3d(0, 0, 0);
+  }
+}
+@keyframes shadow {
+  from {
+    transform: scale(1) translate3d(0, 0, 0);
+  }
+  to {
+    transform: scale(1.25) translate3d(0, 0, 0);
+  }
+}
