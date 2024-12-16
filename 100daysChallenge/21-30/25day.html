@@ -32,5 +32,23 @@
       </div>
     </div>
   </div>
+
+  <script>
+
+    let marker = document.getElementsByClassName('marker')[0]
+    let card = document.getElementsByClassName('card')[0]
+
+    marker.addEventListener('click', function() {
+      card.classList.toggle('active')
+      marker.classList.toggle('inactive')
+    })
+
+    card.addEventListener('click', function() {
+      card.classList.remove('active')
+      marker.classList.remove('inactive')
+    })
+
+
+  </script>
 </body>
 </html>
