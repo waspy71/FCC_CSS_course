@@ -15,7 +15,7 @@
         <span class="headline">The couch</span>
         <p>If you want to grow, get outside<br/> your comfort zone.</p>
       </div>
-      <div class="button">Ok</div>	
+      <div class="button one" onclick="change()">Ok</div>	
     </div>
     <div class="card">
       <div class="number-bg"></div>
@@ -24,7 +24,7 @@
         <span class="headline">Failing is learning</span>
         <p>Pick yourself up, dust yourself off,<br/> and start again.</p>
       </div>
-      <div class="button">Ok</div>	
+      <div class="button two" onclick="change()">Ok</div>	
     </div>
     <div class="card">
       <div class="number-bg"></div>
@@ -33,8 +33,28 @@
         <span class="headline">Flowers and rainbows</span>
         <p>Always be yourself,<br/> unless you can be a unicorn.</p>
       </div>
-      <div class="button">Ok</div>	
+      <div class="button three" onclick="change()">Ok</div>	
     </div>
   </div>
+  <script>
+
+    let active = 1
+    let button = document.getElementsByClassName('button')
+    let card = document.querySelectorAll(`.card:nth-child(${active})`)[0]
+    
+    
+    function change() {
+      card.classList.toggle('active')
+
+      if (active == 3) {
+        active = 0
+      }
+      active++
+
+      card = document.querySelectorAll(`.card:nth-child(${active})`)[0]
+      card.classList.toggle('active')
+    }
+
+  </script>
 </body>
 </html>
