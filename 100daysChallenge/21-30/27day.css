@@ -74,3 +74,29 @@
   cursor: pointer;
   transition: all 0.4s ease-out 0.5s;
 }
+.list ul .checkmark {
+  position: absolute;
+  top: 2px;
+  right: 0;
+  stroke: #C8D4D9;
+  fill: none;
+  stroke-width: 1.5;
+  stroke-dasharray: 30 30;
+  stroke-dashoffset: 30;
+  transition: all 0.5s ease-out;
+}
+.list ul input {
+  display: none;
+}
+.list ul input:checked ~ .text {
+  color: #C8D4D9;
+}
+.list ul input:checked ~ .button {
+  transition: all 0.4s ease-in;
+  transform: scale(1.5);
+  opacity: 0;
+}
+.list ul input:checked ~ .checkmark {
+  stroke-dashoffset: 0;
+  transition: all 0.5s ease-out 0.4s;
+}
