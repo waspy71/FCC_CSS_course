@@ -81,3 +81,76 @@
     opacity: 0;
   }
 }
+
+@keyframes line-1 {
+  0% {
+    transform: translate3d(0, 0, 0) scale(1);
+    opacity: 1;
+  }
+  50%, 100% {
+    transform: translate3d(60px, 0, 0) scale(2);
+    opacity: 0;
+  }
+}
+@-webkit-keyframes line-2 {
+  0%, 19% {
+    opacity: 0;
+  }
+  20% {
+    transform: translate3d(0, 0, 0) scale(1);
+    opacity: 1;
+  }
+  70%, 100% {
+    transform: translate3d(60px, 0, 0) scale(2);
+    opacity: 0;
+  }
+}
+@keyframes line-2 {
+  0%, 19% {
+    opacity: 0;
+  }
+  20% {
+    transform: translate3d(0, 0, 0) scale(1);
+    opacity: 1;
+  }
+  70%, 100% {
+    transform: translate3d(60px, 0, 0) scale(2);
+    opacity: 0;
+  }
+}
+@-webkit-keyframes line-3 {
+  0%, 39% {
+    opacity: 0;
+  }
+  40% {
+    transform: translate3d(0, 0, 0) scale(1);
+    opacity: 1;
+  }
+  90%, 100% {
+    transform: translate3d(60px, 0, 0) scale(2);
+    opacity: 0;
+  }
+}
+@keyframes line-3 {
+  0%, 39% {
+    opacity: 0;
+  }
+  40% {
+    transform: translate3d(0, 0, 0) scale(1);
+    opacity: 1;
+  }
+  90%, 100% {
+    transform: translate3d(60px, 0, 0) scale(2);
+    opacity: 0;
+  }
+}
+@-webkit-keyframes line-4 {
+  0% {
+    transform: translate3d(0, 0, 0) scale(1);
+    opacity: 1;
+  }
+  50%, 100% {
+    transform: translate3d(-60px, 0, 0) scale(2);
+    opacity: 0;
+  }
+}
