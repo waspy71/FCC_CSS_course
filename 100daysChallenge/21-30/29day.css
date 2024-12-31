@@ -54,7 +54,7 @@
 }
 .search .button span {
   position: relative;
-  top: -1px;
+  top: 3px;
 }
 .search .suggestions {
   background: #fff;
