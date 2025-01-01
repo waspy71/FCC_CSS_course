@@ -17,5 +17,39 @@
       <ul class="suggestions clearfix"></ul>
     </div>
   </div>
+  <script>
+
+    let search = document.getElementsByClassName('searchfield')[0]
+
+    search.addEventListener('keyup', function(e) {
+      let text = this.value
+      let list = document.getElementsByClassName('clearfix')[0]
+
+      if (text.length) {
+        list.classList.toggle('active')
+        let active = document.getElementsByClassName('active')[0]
+        if (active) {
+          let e = document.querySelector('ul')
+          e.innerHTML = ''
+
+          let item1 = document.createElement('li')
+          let item2 = document.createElement('li')
+          let item3 = document.createElement('li')
+  
+          item1.innerHTML = `<li> <b> ${text} <br/> <li/>`
+          item2.innerHTML = `<li> <b>Veritatis et  ${text} <br/> <li/>`
+          item3.innerHTML = `<li> <b>ut aliquid ex  ${text} vero eos<br/> <li/>`
+          list.append(item1)
+          list.append(item2)
+          list.append(item3)
+        }
+      } else {
+        let e = document.querySelector('ul')
+        e.innerHTML = ''
+        list.classList.remove('active')
+      }
+    })
+
+  </script>
 </body>
 </html>
