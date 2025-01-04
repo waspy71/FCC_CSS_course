@@ -1,0 +1,87 @@
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  background: #4C4BA2;
+}
+
+.dots {
+  padding-top: 28px;
+  padding-left: 194px;
+}
+.dots .dot {
+  width: 12px;
+  height: 12px;
+  background: #fff;
+  border-radius: 50%;
+  margin: 5px 0;
+}
+
+.dot-1 {
+  -webkit-animation: dot 1016.9491525424ms ease-in-out infinite;
+          animation: dot 1016.9491525424ms ease-in-out infinite;
+}
+
+/* DIFFERENT STYLE OF PENDULUM
+.dot-1 {
+animation: dot-1 ($time * 1000) + ms ease-in-out infinite;
+}
+
+@keyframes dot-1 {
+	0%, 100% {
+		transform: translate3d( ($i * 8) + px, 0,0 );
+	}
+	50% {
+		transform: translate3d( ($i * -8) + px, 0,0 );
+	}
+}
+*/
+.dot-2 {
+  -webkit-animation: dot 1034.4827586207ms ease-in-out infinite;
+          animation: dot 1034.4827586207ms ease-in-out infinite;
+}
+
+/* DIFFERENT STYLE OF PENDULUM
+.dot-2 {
+animation: dot-2 ($time * 1000) + ms ease-in-out infinite;
+}
+
+@keyframes dot-2 {
+	0%, 100% {
+		transform: translate3d( ($i * 8) + px, 0,0 );
+	}
+	50% {
+		transform: translate3d( ($i * -8) + px, 0,0 );
+	}
+}
+*/
+.dot-3 {
+  -webkit-animation: dot 1052.6315789474ms ease-in-out infinite;
+          animation: dot 1052.6315789474ms ease-in-out infinite;
+}
+
+/* DIFFERENT STYLE OF PENDULUM
+.dot-3 {
+animation: dot-3 ($time * 1000) + ms ease-in-out infinite;
+}
+
+@keyframes dot-3 {
+	0%, 100% {
+		transform: translate3d( ($i * 8) + px, 0,0 );
+	}
+	50% {
+		transform: translate3d( ($i * -8) + px, 0,0 );
+	}
+}
+*/
+.dot-4 {
+  -webkit-animation: dot 1071.4285714286ms ease-in-out infinite;
+          animation: dot 1071.4285714286ms ease-in-out infinite;
+}
