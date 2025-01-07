@@ -237,3 +237,103 @@ animation: dot-11 ($time * 1000) + ms ease-in-out infinite;
   -webkit-animation: dot 1250ms ease-in-out infinite;
           animation: dot 1250ms ease-in-out infinite;
 }
+
+/* DIFFERENT STYLE OF PENDULUM
+.dot-12 {
+animation: dot-12 ($time * 1000) + ms ease-in-out infinite;
+}
+
+@keyframes dot-12 {
+	0%, 100% {
+		transform: translate3d( ($i * 8) + px, 0,0 );
+	}
+	50% {
+		transform: translate3d( ($i * -8) + px, 0,0 );
+	}
+}
+*/
+.dot-13 {
+  -webkit-animation: dot 1276.5957446809ms ease-in-out infinite;
+          animation: dot 1276.5957446809ms ease-in-out infinite;
+}
+
+/* DIFFERENT STYLE OF PENDULUM
+.dot-13 {
+animation: dot-13 ($time * 1000) + ms ease-in-out infinite;
+}
+
+@keyframes dot-13 {
+	0%, 100% {
+		transform: translate3d( ($i * 8) + px, 0,0 );
+	}
+	50% {
+		transform: translate3d( ($i * -8) + px, 0,0 );
+	}
+}
+*/
+.dot-14 {
+  -webkit-animation: dot 1304.347826087ms ease-in-out infinite;
+          animation: dot 1304.347826087ms ease-in-out infinite;
+}
+
+/* DIFFERENT STYLE OF PENDULUM
+.dot-14 {
+animation: dot-14 ($time * 1000) + ms ease-in-out infinite;
+}
+
+@keyframes dot-14 {
+	0%, 100% {
+		transform: translate3d( ($i * 8) + px, 0,0 );
+	}
+	50% {
+		transform: translate3d( ($i * -8) + px, 0,0 );
+	}
+}
+*/
+.dot-15 {
+  -webkit-animation: dot 1333.3333333333ms ease-in-out infinite;
+          animation: dot 1333.3333333333ms ease-in-out infinite;
+}
+
+/* DIFFERENT STYLE OF PENDULUM
+.dot-15 {
+animation: dot-15 ($time * 1000) + ms ease-in-out infinite;
+}
+
+@keyframes dot-15 {
+	0%, 100% {
+		transform: translate3d( ($i * 8) + px, 0,0 );
+	}
+	50% {
+		transform: translate3d( ($i * -8) + px, 0,0 );
+	}
+}
+*/
+.dot-16 {
+  -webkit-animation: dot 1363.6363636364ms ease-in-out infinite;
+          animation: dot 1363.6363636364ms ease-in-out infinite;
+}
+
+/* DIFFERENT STYLE OF PENDULUM
+.dot-16 {
+animation: dot-16 ($time * 1000) + ms ease-in-out infinite;
+}
+
+@keyframes dot-16 {
+	0%, 100% {
+		transform: translate3d( ($i * 8) + px, 0,0 );
+	}
+	50% {
+		transform: translate3d( ($i * -8) + px, 0,0 );
+	}
+}
+*/
+.dot-17 {
+  -webkit-animation: dot 1395.3488372093ms ease-in-out infinite;
+          animation: dot 1395.3488372093ms ease-in-out infinite;
+}
+
+/* DIFFERENT STYLE OF PENDULUM
+.dot-17 {
+animation: dot-17 ($time * 1000) + ms ease-in-out infinite;
+}
