@@ -24,80 +24,45 @@
   <script>
 
     let number = 0
-    let numberClass = document.getElementsByClassName('number')
-    console.log('numberClass', numberClass[0])
+    let numberDiv = document.getElementsByClassName('number')
 
     let minus = document.getElementsByClassName('minus')[0]
     let plus = document.getElementsByClassName('plus')[0]
-    console.log('minus', minus)
-    console.log('plus', plus)
-
+    
     minus.addEventListener('click', function() {
-      console.log('clicked')
-      updateNumber(-1)
+        updateNumber(-1)
     })
-
+    
     plus.addEventListener('click', function() {
-      updateNumber(1)
+        updateNumber(1)
     })
 
     function updateNumber(value) {
-      number += value
-      console.log('numver value', number)
-      let span = document.querySelectorAll('span')[0]
-      let divLength = document.getElementsByClassName('number')
+        number += value
+        numberDiv[0].innerHTML =''
 
+        let item1 = document.createElement('span')
+        let item2 = document.createElement('span')
 
-      if (value > 0) {
-        console.log('plus span', span)
+        if (value > 0) {
+            item1.classList.add('fadeOutUp')
+            item1.innerHTML = `${number -1}`
 
-        span.classList.remove('fadeIn')
-        // remove minus class
-        span.classList.remove('fadeOutDown')
-        // 
-        span.classList.add('fadeOutUp')
+            item2.classList.add('fadeInUp')
+            item2.innerHTML = `${number}`
 
-        if (divLength[0].children.length > 1) {
-          console.log('plus here')
-          divLength[0].removeChild(divLength[0].lastElementChild)
-        } 
+        } else if (value < 0) {
+            item1.classList.add('fadeOutDown')
+            item1.innerHTML = `${number +1}`
 
-        span.innerHTML = `${number - 1}`
+            item2.classList.add('fadeInDown')
+            item2.innerHTML = `${number}`
+            }
 
-        let item = document.createElement('span')
-        // changing just the span
-        item.classList.add('fadeInUp')
-        item.innerHTML = `${number}`
-        // item.innerHTML = `<span class='fadeInUp'> ${number} </span>`
-        numberClass[0].append(item)
+            numberDiv[0].appendChild(item1)
+            numberDiv[0].appendChild(item2)
 
-
-      } else {
-        console.log('minus span', span)
-
-        span.classList.remove('fadeIn')
-        // remove plus class
-        span.classList.remove('fadeOutUp')
-        // 
-        span.classList.add('fadeOutDown')
-        console.log('length', divLength[0].children.length)
-
-        if (divLength[0].children.length > 1) {
-          console.log('minus here')
-          divLength[0].removeChild(divLength[0].lastElementChild)
         }
-        
-        span.innerHTML = `${number + 1}`
-
-        let item = document.createElement('span')
-        // 
-        item.classList.add('fadeInDown')
-        item.innerHTML = `${number}`
-        // item.innerHTML = `<span class='fadeInDown'> ${number} </span>`
-        numberClass[0].append(item)
-      }
-    }
-
 
   </script>
 </body>

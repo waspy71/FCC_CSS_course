@@ -109,26 +109,26 @@
   bottom: 0;
   transform-origin: 50% 50%;
 }
-/*  */
+/* changed time from 0.3 to 1s for testing */
 .counter .number span.fadeInUp {
-  -webkit-animation: fadeIn 1s ease-out 0.15s backwards;
-          animation: fadeIn 1s ease-out 0.15s backwards;
+  -webkit-animation: fadeIn 0.3s ease-out 0.15s backwards;
+          animation: fadeIn 0.3s ease-out 0.15s backwards;
   transform: scale(1);
   opacity: 1;
 }
 .counter .number span.fadeOutUp {
-  -webkit-animation: fadeOut 1s ease-in;
-          animation: fadeOut 1s ease-in;
+  -webkit-animation: fadeOut 0.3s ease-in;
+          animation: fadeOut 0.3s ease-in;
   transform: scale(1.4);
   opacity: 0;
 }
 .counter .number span.fadeInDown {
-  animation: fadeOut 1s ease-out 0.15s reverse backwards;
+  animation: fadeOut 0.3s ease-out 0.15s reverse backwards;
   transform: scale(1);
   opacity: 1;
 }
 .counter .number span.fadeOutDown {
-  animation: fadeIn 1s ease-in reverse;
+  animation: fadeIn 0.3s ease-in reverse;
   transform: scale(0.6);
   opacity: 0;
 }
