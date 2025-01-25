@@ -72,3 +72,79 @@
     transform: translate3d(145px, 0, -45px);
     box-shadow: 2px 4px 6px 0px rgba(0, 0, 0, 0.2);
   }
+  66.66% {
+    transform: translate3d(-145px, 0, -45px);
+    box-shadow: 2px 4px 6px 0px rgba(0, 0, 0, 0.2);
+  }
+}
+
+@keyframes switch-1 {
+  0%, 100% {
+    transform: translate3d(0, 0, 0);
+    box-shadow: 4px 8px 12px 0px rgba(0, 0, 0, 0.2);
+  }
+  33.33% {
+    transform: translate3d(145px, 0, -45px);
+    box-shadow: 2px 4px 6px 0px rgba(0, 0, 0, 0.2);
+  }
+  66.66% {
+    transform: translate3d(-145px, 0, -45px);
+    box-shadow: 2px 4px 6px 0px rgba(0, 0, 0, 0.2);
+  }
+}
+@-webkit-keyframes switch-2 {
+  0%, 100% {
+    transform: translate3d(145px, 0, -45px);
+    box-shadow: 2px 4px 6px 0px rgba(0, 0, 0, 0.2);
+  }
+  33.33% {
+    transform: translate3d(-145px, 0, -45px);
+    box-shadow: 2px 4px 6px 0px rgba(0, 0, 0, 0.2);
+  }
+  66.66% {
+    transform: translate3d(0, 0, 0);
+    box-shadow: 4px 8px 12px 0px rgba(0, 0, 0, 0.2);
+  }
+}
+@keyframes switch-2 {
+  0%, 100% {
+    transform: translate3d(145px, 0, -45px);
+    box-shadow: 2px 4px 6px 0px rgba(0, 0, 0, 0.2);
+  }
+  33.33% {
+    transform: translate3d(-145px, 0, -45px);
+    box-shadow: 2px 4px 6px 0px rgba(0, 0, 0, 0.2);
+  }
+  66.66% {
+    transform: translate3d(0, 0, 0);
+    box-shadow: 4px 8px 12px 0px rgba(0, 0, 0, 0.2);
+  }
+}
+@-webkit-keyframes switch-3 {
+  0%, 100% {
+    transform: translate3d(-145px, 0, -45px);
+    box-shadow: 2px 4px 6px 0px rgba(0, 0, 0, 0.2);
+  }
+  33.33% {
+    transform: translate3d(0, 0, 0);
+    box-shadow: 4px 8px 12px 0px rgba(0, 0, 0, 0.2);
+  }
+  66.66% {
+    transform: translate3d(145px, 0, -45px);
+    box-shadow: 2px 4px 6px 0px rgba(0, 0, 0, 0.2);
+  }
+}
+@keyframes switch-3 {
+  0%, 100% {
+    transform: translate3d(-145px, 0, -45px);
+    box-shadow: 2px 4px 6px 0px rgba(0, 0, 0, 0.2);
+  }
+  33.33% {
+    transform: translate3d(0, 0, 0);
+    box-shadow: 4px 8px 12px 0px rgba(0, 0, 0, 0.2);
+  }
+  66.66% {
+    transform: translate3d(145px, 0, -45px);
+    box-shadow: 2px 4px 6px 0px rgba(0, 0, 0, 0.2);
+  }
+}
