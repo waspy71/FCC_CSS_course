@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <linkk role="stylesheet" href="38day.css" >
+  <link rel="stylesheet" href="38day.css" >
   <title>Document</title>
 </head>
 <body>
@@ -19,5 +19,18 @@
       </svg>
     </div>
   </div>
+  <script>
+
+    let frame = document.getElementsByClassName('frame')[0]
+    console.log('here', frame)
+
+    frame.addEventListener('click', function() {
+      document.getElementsByClassName('white')[0].classList.toggle('normal')
+      document.getElementsByClassName('white')[0].classList.toggle('big')
+      document.getElementsByClassName('purple')[0].classList.toggle('small')
+      document.getElementsByClassName('purple')[0].classList.toggle('normal')
+    })
+
+  </script>
 </body>
 </html>
