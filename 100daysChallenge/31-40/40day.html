@@ -20,5 +20,19 @@
       <div class="pic pic-9"><img src="https://100dayscss.com/codepen/40-9.jpg" alt="" /></div>
     </div>
   </div>
+  <script>
+
+  let pic = document.getElementsByClassName('pic')
+
+  for( let i = 0; i < pic.length; i++ ) {
+    pic[i].addEventListener('click', () => {
+      pic[i].classList.toggle('away')
+      pic[i].classList.toggle('active')
+      for( let x = 0; x < pic.length; x++ ) {
+        pic[x].classList.toggle('away')
+      }
+    })
+  }
+  </script>
 </body>
 </html>
