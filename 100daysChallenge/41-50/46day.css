@@ -117,3 +117,126 @@
   transform: translate3d(0, -100px, 0) rotate(180deg);
   transform-origin: 0 100px;
 }
+
+.dot-8 {
+  transform: translate3d(0, -100px, 0) rotate(210deg);
+  transform-origin: 0 100px;
+}
+
+.dot-9 {
+  transform: translate3d(0, -100px, 0) rotate(240deg);
+  transform-origin: 0 100px;
+}
+
+.dot-10 {
+  transform: translate3d(0, -100px, 0) rotate(270deg);
+  transform-origin: 0 100px;
+}
+
+.dot-11 {
+  transform: translate3d(0, -100px, 0) rotate(300deg);
+  transform-origin: 0 100px;
+}
+
+.dot-12 {
+  transform: translate3d(0, -100px, 0) rotate(330deg);
+  transform-origin: 0 100px;
+}
+
+@-webkit-keyframes inOut-1 {
+  0% {
+    transform: scale(1) rotate(0deg);
+  }
+  100% {
+    transform: scale(1) rotate(360deg);
+  }
+}
+
+@keyframes inOut-1 {
+  0% {
+    transform: scale(1) rotate(0deg);
+  }
+  100% {
+    transform: scale(1) rotate(360deg);
+  }
+}
+@-webkit-keyframes inOut-2 {
+  0% {
+    transform: scale(0.8571428571) rotate(5deg);
+  }
+  100% {
+    transform: scale(0.9545454545) rotate(370deg);
+  }
+}
+@keyframes inOut-2 {
+  0% {
+    transform: scale(0.8571428571) rotate(5deg);
+  }
+  100% {
+    transform: scale(0.9545454545) rotate(370deg);
+  }
+}
+@-webkit-keyframes inOut-3 {
+  0% {
+    transform: scale(0.7142857143) rotate(10deg);
+  }
+  100% {
+    transform: scale(0.9090909091) rotate(380deg);
+  }
+}
+@keyframes inOut-3 {
+  0% {
+    transform: scale(0.7142857143) rotate(10deg);
+  }
+  100% {
+    transform: scale(0.9090909091) rotate(380deg);
+  }
+}
+@-webkit-keyframes inOut-4 {
+  0% {
+    transform: scale(0.5714285714) rotate(15deg);
+  }
+  100% {
+    transform: scale(0.8636363636) rotate(390deg);
+  }
+}
+@keyframes inOut-4 {
+  0% {
+    transform: scale(0.5714285714) rotate(15deg);
+  }
+  100% {
+    transform: scale(0.8636363636) rotate(390deg);
+  }
+}
+@-webkit-keyframes inOut-5 {
+  0% {
+    transform: scale(0.4285714286) rotate(20deg);
+  }
+  100% {
+    transform: scale(0.8181818182) rotate(400deg);
+  }
+}
+@keyframes inOut-5 {
+  0% {
+    transform: scale(0.4285714286) rotate(20deg);
+  }
+  100% {
+    transform: scale(0.8181818182) rotate(400deg);
+  }
+}
+@-webkit-keyframes inOut-6 {
+  0% {
+    transform: scale(0.2857142857) rotate(25deg);
+  }
+  100% {
+    transform: scale(0.7727272727) rotate(410deg);
+  }
+}
+@keyframes inOut-6 {
+  0% {
+    transform: scale(0.2857142857) rotate(25deg);
+  }
+  100% {
+    transform: scale(0.7727272727) rotate(410deg);
+  }
+}
