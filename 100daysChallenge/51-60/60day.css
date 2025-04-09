@@ -1,0 +1,437 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700);
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  background: #34495e;
+  color: #fff;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.trigger {
+  box-sizing: border-box;
+  position: absolute;
+  width: 400px;
+  height: 10px;
+  left: 0;
+  cursor: pointer;
+}
+
+.plane {
+  position: absolute;
+  z-index: 5;
+  pointer-events: none;
+  width: 400px;
+  height: 200px;
+  top: 0;
+  left: 0;
+  background: #e67e22;
+  overflow: hidden;
+  transform-origin: 50% 0%;
+  transition: all 0.4s ease-in-out;
+}
+
+.text-back, .text-front {
+  position: absolute;
+  pointer-events: none;
+  z-index: 2;
+  width: 400px;
+  top: 169px;
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+}
+
+.text-front {
+  z-index: 10;
+  color: transparent;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+  transition: all 0.4s ease-in-out;
+}
+
+.trigger-0 {
+  top: -2px;
+}
+.trigger-0:hover ~ .plane {
+  height: 0px;
+  transition: initial;
+}
+
+.trigger-1 {
+  top: 0px;
+}
+.trigger-1:hover ~ .plane {
+  height: 2px;
+  transition: initial;
+}
+
+.trigger-2 {
+  top: 2px;
+}
+.trigger-2:hover ~ .plane {
+  height: 4px;
+  transition: initial;
+}
+
+.trigger-3 {
+  top: 4px;
+}
+.trigger-3:hover ~ .plane {
+  height: 6px;
+  transition: initial;
+}
+
+.trigger-4 {
+  top: 6px;
+}
+.trigger-4:hover ~ .plane {
+  height: 8px;
+  transition: initial;
+}
+
+.trigger-5 {
+  top: 8px;
+}
+.trigger-5:hover ~ .plane {
+  height: 10px;
+  transition: initial;
+}
+
+.trigger-6 {
+  top: 10px;
+}
+.trigger-6:hover ~ .plane {
+  height: 12px;
+  transition: initial;
+}
+
+.trigger-7 {
+  top: 12px;
+}
+.trigger-7:hover ~ .plane {
+  height: 14px;
+  transition: initial;
+}
+
+.trigger-8 {
+  top: 14px;
+}
+.trigger-8:hover ~ .plane {
+  height: 16px;
+  transition: initial;
+}
+
+.trigger-9 {
+  top: 16px;
+}
+.trigger-9:hover ~ .plane {
+  height: 18px;
+  transition: initial;
+}
+
+.trigger-10 {
+  top: 18px;
+}
+.trigger-10:hover ~ .plane {
+  height: 20px;
+  transition: initial;
+}
+
+.trigger-11 {
+  top: 20px;
+}
+.trigger-11:hover ~ .plane {
+  height: 22px;
+  transition: initial;
+}
+
+.trigger-12 {
+  top: 22px;
+}
+.trigger-12:hover ~ .plane {
+  height: 24px;
+  transition: initial;
+}
+
+.trigger-13 {
+  top: 24px;
+}
+.trigger-13:hover ~ .plane {
+  height: 26px;
+  transition: initial;
+}
+
+.trigger-14 {
+  top: 26px;
+}
+.trigger-14:hover ~ .plane {
+  height: 28px;
+  transition: initial;
+}
+
+.trigger-15 {
+  top: 28px;
+}
+.trigger-15:hover ~ .plane {
+  height: 30px;
+  transition: initial;
+}
+
+.trigger-16 {
+  top: 30px;
+}
+.trigger-16:hover ~ .plane {
+  height: 32px;
+  transition: initial;
+}
+
+.trigger-17 {
+  top: 32px;
+}
+.trigger-17:hover ~ .plane {
+  height: 34px;
+  transition: initial;
+}
+
+.trigger-18 {
+  top: 34px;
+}
+.trigger-18:hover ~ .plane {
+  height: 36px;
+  transition: initial;
+}
+
+.trigger-19 {
+  top: 36px;
+}
+.trigger-19:hover ~ .plane {
+  height: 38px;
+  transition: initial;
+}
+
+.trigger-20 {
+  top: 38px;
+}
+.trigger-20:hover ~ .plane {
+  height: 40px;
+  transition: initial;
+}
+
+.trigger-21 {
+  top: 40px;
+}
+.trigger-21:hover ~ .plane {
+  height: 42px;
+  transition: initial;
+}
+
+.trigger-22 {
+  top: 42px;
+}
+.trigger-22:hover ~ .plane {
+  height: 44px;
+  transition: initial;
+}
+
+.trigger-23 {
+  top: 44px;
+}
+.trigger-23:hover ~ .plane {
+  height: 46px;
+  transition: initial;
+}
+
+.trigger-24 {
+  top: 46px;
+}
+.trigger-24:hover ~ .plane {
+  height: 48px;
+  transition: initial;
+}
+
+.trigger-25 {
+  top: 48px;
+}
+.trigger-25:hover ~ .plane {
+  height: 50px;
+  transition: initial;
+}
+
+.trigger-26 {
+  top: 50px;
+}
+.trigger-26:hover ~ .plane {
+  height: 52px;
+  transition: initial;
+}
+
+.trigger-27 {
+  top: 52px;
+}
+.trigger-27:hover ~ .plane {
+  height: 54px;
+  transition: initial;
+}
+
+.trigger-28 {
+  top: 54px;
+}
+.trigger-28:hover ~ .plane {
+  height: 56px;
+  transition: initial;
+}
+
+.trigger-29 {
+  top: 56px;
+}
+.trigger-29:hover ~ .plane {
+  height: 58px;
+  transition: initial;
+}
+
+.trigger-30 {
+  top: 58px;
+}
+.trigger-30:hover ~ .plane {
+  height: 60px;
+  transition: initial;
+}
+
+.trigger-31 {
+  top: 60px;
+}
+.trigger-31:hover ~ .plane {
+  height: 62px;
+  transition: initial;
+}
+
+.trigger-32 {
+  top: 62px;
+}
+.trigger-32:hover ~ .plane {
+  height: 64px;
+  transition: initial;
+}
+
+.trigger-33 {
+  top: 64px;
+}
+.trigger-33:hover ~ .plane {
+  height: 66px;
+  transition: initial;
+}
+
+.trigger-34 {
+  top: 66px;
+}
+.trigger-34:hover ~ .plane {
+  height: 68px;
+  transition: initial;
+}
+
+.trigger-35 {
+  top: 68px;
+}
+.trigger-35:hover ~ .plane {
+  height: 70px;
+  transition: initial;
+}
+
+.trigger-36 {
+  top: 70px;
+}
+.trigger-36:hover ~ .plane {
+  height: 72px;
+  transition: initial;
+}
+
+.trigger-37 {
+  top: 72px;
+}
+.trigger-37:hover ~ .plane {
+  height: 74px;
+  transition: initial;
+}
+
+.trigger-38 {
+  top: 74px;
+}
+.trigger-38:hover ~ .plane {
+  height: 76px;
+  transition: initial;
+}
+
+.trigger-39 {
+  top: 76px;
+}
+.trigger-39:hover ~ .plane {
+  height: 78px;
+  transition: initial;
+}
+
+.trigger-40 {
+  top: 78px;
+}
+.trigger-40:hover ~ .plane {
+  height: 80px;
+  transition: initial;
+}
+
+.trigger-41 {
+  top: 80px;
+}
+.trigger-41:hover ~ .plane {
+  height: 82px;
+  transition: initial;
+}
+
+.trigger-42 {
+  top: 82px;
+}
+.trigger-42:hover ~ .plane {
+  height: 84px;
+  transition: initial;
+}
+
+.trigger-43 {
+  top: 84px;
+}
+.trigger-43:hover ~ .plane {
+  height: 86px;
+  transition: initial;
+}
+
+.trigger-44 {
+  top: 86px;
+}
+.trigger-44:hover ~ .plane {
+  height: 88px;
+  transition: initial;
+}
+
+.trigger-45 {
+  top: 88px;
+}
+.trigger-45:hover ~ .plane {
+  height: 90px;
+  transition: initial;
+}
+
+.trigger-46 {
+  top: 90px;
+}
+.trigger-46:hover ~ .plane {
+  height: 92px;
+  transition: initial;
+}
