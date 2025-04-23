@@ -1,0 +1,232 @@
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  background: #1F91DD;
+  color: #fff;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.form {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 50px;
+  left: 50px;
+}
+
+.ellipse {
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 105px;
+  width: 90px;
+  height: 300px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  transition: all 0.5s ease-in-out;
+}
+
+.ellipse-1 {
+  -webkit-animation: ellipse-1 5s ease-in-out infinite;
+          animation: ellipse-1 5s ease-in-out infinite;
+}
+
+@-webkit-keyframes ellipse-1 {
+  0% {
+    transform: rotate(0deg);
+    border-radius: 50%;
+    border-width: 1px;
+  }
+  50% {
+    transform: rotate(0) scaleX(3.3333333333);
+    border-radius: 0%;
+  }
+  100% {
+    transform: rotate(360deg);
+    border-radius: 50%;
+    border-width: 1px;
+  }
+}
+
+@keyframes ellipse-1 {
+  0% {
+    transform: rotate(0deg);
+    border-radius: 50%;
+    border-width: 1px;
+  }
+  50% {
+    transform: rotate(0) scaleX(3.3333333333);
+    border-radius: 0%;
+  }
+  100% {
+    transform: rotate(360deg);
+    border-radius: 50%;
+    border-width: 1px;
+  }
+}
+.ellipse-2 {
+  -webkit-animation: ellipse-2 5s ease-in-out infinite;
+          animation: ellipse-2 5s ease-in-out infinite;
+}
+
+@-webkit-keyframes ellipse-2 {
+  0% {
+    transform: rotate(10deg);
+    border-radius: 50%;
+    border-width: 1px;
+  }
+  50% {
+    transform: rotate(0) scaleX(3.3333333333);
+    border-radius: 0%;
+  }
+  100% {
+    transform: rotate(350deg);
+    border-radius: 50%;
+    border-width: 1px;
+  }
+}
+
+@keyframes ellipse-2 {
+  0% {
+    transform: rotate(10deg);
+    border-radius: 50%;
+    border-width: 1px;
+  }
+  50% {
+    transform: rotate(0) scaleX(3.3333333333);
+    border-radius: 0%;
+  }
+  100% {
+    transform: rotate(350deg);
+    border-radius: 50%;
+    border-width: 1px;
+  }
+}
+.ellipse-3 {
+  -webkit-animation: ellipse-3 5s ease-in-out infinite;
+          animation: ellipse-3 5s ease-in-out infinite;
+}
+
+@-webkit-keyframes ellipse-3 {
+  0% {
+    transform: rotate(20deg);
+    border-radius: 50%;
+    border-width: 1px;
+  }
+  50% {
+    transform: rotate(0) scaleX(3.3333333333);
+    border-radius: 0%;
+  }
+  100% {
+    transform: rotate(340deg);
+    border-radius: 50%;
+    border-width: 1px;
+  }
+}
+
+@keyframes ellipse-3 {
+  0% {
+    transform: rotate(20deg);
+    border-radius: 50%;
+    border-width: 1px;
+  }
+  50% {
+    transform: rotate(0) scaleX(3.3333333333);
+    border-radius: 0%;
+  }
+  100% {
+    transform: rotate(340deg);
+    border-radius: 50%;
+    border-width: 1px;
+  }
+}
+.ellipse-4 {
+  -webkit-animation: ellipse-4 5s ease-in-out infinite;
+          animation: ellipse-4 5s ease-in-out infinite;
+}
+
+@-webkit-keyframes ellipse-4 {
+  0% {
+    transform: rotate(30deg);
+    border-radius: 50%;
+    border-width: 1px;
+  }
+  50% {
+    transform: rotate(0) scaleX(3.3333333333);
+    border-radius: 0%;
+  }
+  100% {
+    transform: rotate(330deg);
+    border-radius: 50%;
+    border-width: 1px;
+  }
+}
+
+@keyframes ellipse-4 {
+  0% {
+    transform: rotate(30deg);
+    border-radius: 50%;
+    border-width: 1px;
+  }
+  50% {
+    transform: rotate(0) scaleX(3.3333333333);
+    border-radius: 0%;
+  }
+  100% {
+    transform: rotate(330deg);
+    border-radius: 50%;
+    border-width: 1px;
+  }
+}
+.ellipse-5 {
+  -webkit-animation: ellipse-5 5s ease-in-out infinite;
+          animation: ellipse-5 5s ease-in-out infinite;
+}
+
+@-webkit-keyframes ellipse-5 {
+  0% {
+    transform: rotate(40deg);
+    border-radius: 50%;
+    border-width: 1px;
+  }
+  50% {
+    transform: rotate(0) scaleX(3.3333333333);
+    border-radius: 0%;
+  }
+  100% {
+    transform: rotate(320deg);
+    border-radius: 50%;
+    border-width: 1px;
+  }
+}
+
+@keyframes ellipse-5 {
+  0% {
+    transform: rotate(40deg);
+    border-radius: 50%;
+    border-width: 1px;
+  }
+  50% {
+    transform: rotate(0) scaleX(3.3333333333);
+    border-radius: 0%;
+  }
+  100% {
+    transform: rotate(320deg);
+    border-radius: 50%;
+    border-width: 1px;
+  }
+}
+.ellipse-6 {
+  -webkit-animation: ellipse-6 5s ease-in-out infinite;
+          animation: ellipse-6 5s ease-in-out infinite;
+}
