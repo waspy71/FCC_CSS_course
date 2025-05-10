@@ -1054,3 +1054,483 @@
     opacity: 1;
   }
 }
+@keyframes long-q-2 {
+  0%, 15%, 85%, 100% {
+    opacity: 0;
+  }
+  16%, 84% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes short-q-3 {
+  0%, 40%, 60%, 100% {
+    opacity: 0;
+  }
+  41%, 59% {
+    opacity: 1;
+  }
+}
+@keyframes short-q-3 {
+  0%, 40%, 60%, 100% {
+    opacity: 0;
+  }
+  41%, 59% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes long-q-4 {
+  0%, 15%, 85%, 100% {
+    opacity: 0;
+  }
+  16%, 84% {
+    opacity: 1;
+  }
+}
+@keyframes long-q-4 {
+  0%, 15%, 85%, 100% {
+    opacity: 0;
+  }
+  16%, 84% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes short-r-1 {
+  0%, 40%, 60%, 100% {
+    opacity: 0;
+  }
+  41%, 59% {
+    opacity: 1;
+  }
+}
+@keyframes short-r-1 {
+  0%, 40%, 60%, 100% {
+    opacity: 0;
+  }
+  41%, 59% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes long-r-2 {
+  0%, 15%, 85%, 100% {
+    opacity: 0;
+  }
+  16%, 84% {
+    opacity: 1;
+  }
+}
+@keyframes long-r-2 {
+  0%, 15%, 85%, 100% {
+    opacity: 0;
+  }
+  16%, 84% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes short-r-3 {
+  0%, 40%, 60%, 100% {
+    opacity: 0;
+  }
+  41%, 59% {
+    opacity: 1;
+  }
+}
+@keyframes short-r-3 {
+  0%, 40%, 60%, 100% {
+    opacity: 0;
+  }
+  41%, 59% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes short-s-1 {
+  0%, 40%, 60%, 100% {
+    opacity: 0;
+  }
+  41%, 59% {
+    opacity: 1;
+  }
+}
+@keyframes short-s-1 {
+  0%, 40%, 60%, 100% {
+    opacity: 0;
+  }
+  41%, 59% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes short-s-2 {
+  0%, 40%, 60%, 100% {
+    opacity: 0;
+  }
+  41%, 59% {
+    opacity: 1;
+  }
+}
+@keyframes short-s-2 {
+  0%, 40%, 60%, 100% {
+    opacity: 0;
+  }
+  41%, 59% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes short-s-3 {
+  0%, 40%, 60%, 100% {
+    opacity: 0;
+  }
+  41%, 59% {
+    opacity: 1;
+  }
+}
+@keyframes short-s-3 {
+  0%, 40%, 60%, 100% {
+    opacity: 0;
+  }
+  41%, 59% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes long-t-1 {
+  0%, 15%, 85%, 100% {
+    opacity: 0;
+  }
+  16%, 84% {
+    opacity: 1;
+  }
+}
+@keyframes long-t-1 {
+  0%, 15%, 85%, 100% {
+    opacity: 0;
+  }
+  16%, 84% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes short-u-1 {
+  0%, 40%, 60%, 100% {
+    opacity: 0;
+  }
+  41%, 59% {
+    opacity: 1;
+  }
+}
+@keyframes short-u-1 {
+  0%, 40%, 60%, 100% {
+    opacity: 0;
+  }
+  41%, 59% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes short-u-2 {
+  0%, 40%, 60%, 100% {
+    opacity: 0;
+  }
+  41%, 59% {
+    opacity: 1;
+  }
+}
+@keyframes short-u-2 {
+  0%, 40%, 60%, 100% {
+    opacity: 0;
+  }
+  41%, 59% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes long-u-3 {
+  0%, 15%, 85%, 100% {
+    opacity: 0;
+  }
+  16%, 84% {
+    opacity: 1;
+  }
+}
+@keyframes long-u-3 {
+  0%, 15%, 85%, 100% {
+    opacity: 0;
+  }
+  16%, 84% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes short-v-1 {
+  0%, 40%, 60%, 100% {
+    opacity: 0;
+  }
+  41%, 59% {
+    opacity: 1;
+  }
+}
+@keyframes short-v-1 {
+  0%, 40%, 60%, 100% {
+    opacity: 0;
+  }
+  41%, 59% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes short-v-2 {
+  0%, 40%, 60%, 100% {
+    opacity: 0;
+  }
+  41%, 59% {
+    opacity: 1;
+  }
+}
+@keyframes short-v-2 {
+  0%, 40%, 60%, 100% {
+    opacity: 0;
+  }
+  41%, 59% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes short-v-3 {
+  0%, 40%, 60%, 100% {
+    opacity: 0;
+  }
+  41%, 59% {
+    opacity: 1;
+  }
+}
+@keyframes short-v-3 {
+  0%, 40%, 60%, 100% {
+    opacity: 0;
+  }
+  41%, 59% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes long-v-4 {
+  0%, 15%, 85%, 100% {
+    opacity: 0;
+  }
+  16%, 84% {
+    opacity: 1;
+  }
+}
+@keyframes long-v-4 {
+  0%, 15%, 85%, 100% {
+    opacity: 0;
+  }
+  16%, 84% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes short-w-1 {
+  0%, 40%, 60%, 100% {
+    opacity: 0;
+  }
+  41%, 59% {
+    opacity: 1;
+  }
+}
+@keyframes short-w-1 {
+  0%, 40%, 60%, 100% {
+    opacity: 0;
+  }
+  41%, 59% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes long-w-2 {
+  0%, 15%, 85%, 100% {
+    opacity: 0;
+  }
+  16%, 84% {
+    opacity: 1;
+  }
+}
+@keyframes long-w-2 {
+  0%, 15%, 85%, 100% {
+    opacity: 0;
+  }
+  16%, 84% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes long-w-3 {
+  0%, 15%, 85%, 100% {
+    opacity: 0;
+  }
+  16%, 84% {
+    opacity: 1;
+  }
+}
+@keyframes long-w-3 {
+  0%, 15%, 85%, 100% {
+    opacity: 0;
+  }
+  16%, 84% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes long-x-1 {
+  0%, 15%, 85%, 100% {
+    opacity: 0;
+  }
+  16%, 84% {
+    opacity: 1;
+  }
+}
+@keyframes long-x-1 {
+  0%, 15%, 85%, 100% {
+    opacity: 0;
+  }
+  16%, 84% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes short-x-2 {
+  0%, 40%, 60%, 100% {
+    opacity: 0;
+  }
+  41%, 59% {
+    opacity: 1;
+  }
+}
+@keyframes short-x-2 {
+  0%, 40%, 60%, 100% {
+    opacity: 0;
+  }
+  41%, 59% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes short-x-3 {
+  0%, 40%, 60%, 100% {
+    opacity: 0;
+  }
+  41%, 59% {
+    opacity: 1;
+  }
+}
+@keyframes short-x-3 {
+  0%, 40%, 60%, 100% {
+    opacity: 0;
+  }
+  41%, 59% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes long-x-4 {
+  0%, 15%, 85%, 100% {
+    opacity: 0;
+  }
+  16%, 84% {
+    opacity: 1;
+  }
+}
+@keyframes long-x-4 {
+  0%, 15%, 85%, 100% {
+    opacity: 0;
+  }
+  16%, 84% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes long-y-1 {
+  0%, 15%, 85%, 100% {
+    opacity: 0;
+  }
+  16%, 84% {
+    opacity: 1;
+  }
+}
+@keyframes long-y-1 {
+  0%, 15%, 85%, 100% {
+    opacity: 0;
+  }
+  16%, 84% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes short-y-2 {
+  0%, 40%, 60%, 100% {
+    opacity: 0;
+  }
+  41%, 59% {
+    opacity: 1;
+  }
+}
+@keyframes short-y-2 {
+  0%, 40%, 60%, 100% {
+    opacity: 0;
+  }
+  41%, 59% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes long-y-3 {
+  0%, 15%, 85%, 100% {
+    opacity: 0;
+  }
+  16%, 84% {
+    opacity: 1;
+  }
+}
+@keyframes long-y-3 {
+  0%, 15%, 85%, 100% {
+    opacity: 0;
+  }
+  16%, 84% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes long-y-4 {
+  0%, 15%, 85%, 100% {
+    opacity: 0;
+  }
+  16%, 84% {
+    opacity: 1;
+  }
+}
+@keyframes long-y-4 {
+  0%, 15%, 85%, 100% {
+    opacity: 0;
+  }
+  16%, 84% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes long-z-1 {
+  0%, 15%, 85%, 100% {
+    opacity: 0;
+  }
+  16%, 84% {
+    opacity: 1;
+  }
+}
+@keyframes long-z-1 {
+  0%, 15%, 85%, 100% {
+    opacity: 0;
+  }
+  16%, 84% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes long-z-2 {
+  0%, 15%, 85%, 100% {
+    opacity: 0;
+  }
+  16%, 84% {
+    opacity: 1;
+  }
+}
+@keyframes long-z-2 {
+  0%, 15%, 85%, 100% {
+    opacity: 0;
+  }
+  16%, 84% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes short-z-3 {
+  0%, 40%, 60%, 100% {
+    opacity: 0;
+  }
+  41%, 59% {
+    opacity: 1;
+  }
+}
