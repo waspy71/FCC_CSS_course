@@ -1,0 +1,501 @@
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  background: #9B59B6;
+  color: #fff;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.wave {
+  position: absolute;
+  height: 2px;
+  width: 400px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.wave .dot {
+  float: left;
+  width: 2px;
+  height: 2px;
+  border-radius: 1px;
+  background: #fff;
+}
+.wave .dot-1 {
+  -webkit-animation: move-1 3s ease-in-out infinite;
+          animation: move-1 3s ease-in-out infinite;
+}
+.wave .dot-2 {
+  -webkit-animation: move-2 3s ease-in-out infinite;
+          animation: move-2 3s ease-in-out infinite;
+}
+.wave .dot-3 {
+  -webkit-animation: move-3 3s ease-in-out infinite;
+          animation: move-3 3s ease-in-out infinite;
+}
+.wave .dot-4 {
+  -webkit-animation: move-4 3s ease-in-out infinite;
+          animation: move-4 3s ease-in-out infinite;
+}
+.wave .dot-5 {
+  -webkit-animation: move-5 3s ease-in-out infinite;
+          animation: move-5 3s ease-in-out infinite;
+}
+.wave .dot-6 {
+  -webkit-animation: move-6 3s ease-in-out infinite;
+          animation: move-6 3s ease-in-out infinite;
+}
+.wave .dot-7 {
+  -webkit-animation: move-7 3s ease-in-out infinite;
+          animation: move-7 3s ease-in-out infinite;
+}
+.wave .dot-8 {
+  -webkit-animation: move-8 3s ease-in-out infinite;
+          animation: move-8 3s ease-in-out infinite;
+}
+.wave .dot-9 {
+  -webkit-animation: move-9 3s ease-in-out infinite;
+          animation: move-9 3s ease-in-out infinite;
+}
+.wave .dot-10 {
+  -webkit-animation: move-10 3s ease-in-out infinite;
+          animation: move-10 3s ease-in-out infinite;
+}
+.wave .dot-11 {
+  -webkit-animation: move-11 3s ease-in-out infinite;
+          animation: move-11 3s ease-in-out infinite;
+}
+.wave .dot-12 {
+  -webkit-animation: move-12 3s ease-in-out infinite;
+          animation: move-12 3s ease-in-out infinite;
+}
+.wave .dot-13 {
+  -webkit-animation: move-13 3s ease-in-out infinite;
+          animation: move-13 3s ease-in-out infinite;
+}
+.wave .dot-14 {
+  -webkit-animation: move-14 3s ease-in-out infinite;
+          animation: move-14 3s ease-in-out infinite;
+}
+.wave .dot-15 {
+  -webkit-animation: move-15 3s ease-in-out infinite;
+          animation: move-15 3s ease-in-out infinite;
+}
+.wave .dot-16 {
+  -webkit-animation: move-16 3s ease-in-out infinite;
+          animation: move-16 3s ease-in-out infinite;
+}
+.wave .dot-17 {
+  -webkit-animation: move-17 3s ease-in-out infinite;
+          animation: move-17 3s ease-in-out infinite;
+}
+.wave .dot-18 {
+  -webkit-animation: move-18 3s ease-in-out infinite;
+          animation: move-18 3s ease-in-out infinite;
+}
+.wave .dot-19 {
+  -webkit-animation: move-19 3s ease-in-out infinite;
+          animation: move-19 3s ease-in-out infinite;
+}
+.wave .dot-20 {
+  -webkit-animation: move-20 3s ease-in-out infinite;
+          animation: move-20 3s ease-in-out infinite;
+}
+.wave .dot-21 {
+  -webkit-animation: move-21 3s ease-in-out infinite;
+          animation: move-21 3s ease-in-out infinite;
+}
+.wave .dot-22 {
+  -webkit-animation: move-22 3s ease-in-out infinite;
+          animation: move-22 3s ease-in-out infinite;
+}
+.wave .dot-23 {
+  -webkit-animation: move-23 3s ease-in-out infinite;
+          animation: move-23 3s ease-in-out infinite;
+}
+.wave .dot-24 {
+  -webkit-animation: move-24 3s ease-in-out infinite;
+          animation: move-24 3s ease-in-out infinite;
+}
+.wave .dot-25 {
+  -webkit-animation: move-25 3s ease-in-out infinite;
+          animation: move-25 3s ease-in-out infinite;
+}
+.wave .dot-26 {
+  -webkit-animation: move-26 3s ease-in-out infinite;
+          animation: move-26 3s ease-in-out infinite;
+}
+.wave .dot-27 {
+  -webkit-animation: move-27 3s ease-in-out infinite;
+          animation: move-27 3s ease-in-out infinite;
+}
+.wave .dot-28 {
+  -webkit-animation: move-28 3s ease-in-out infinite;
+          animation: move-28 3s ease-in-out infinite;
+}
+.wave .dot-29 {
+  -webkit-animation: move-29 3s ease-in-out infinite;
+          animation: move-29 3s ease-in-out infinite;
+}
+.wave .dot-30 {
+  -webkit-animation: move-30 3s ease-in-out infinite;
+          animation: move-30 3s ease-in-out infinite;
+}
+.wave .dot-31 {
+  -webkit-animation: move-31 3s ease-in-out infinite;
+          animation: move-31 3s ease-in-out infinite;
+}
+.wave .dot-32 {
+  -webkit-animation: move-32 3s ease-in-out infinite;
+          animation: move-32 3s ease-in-out infinite;
+}
+.wave .dot-33 {
+  -webkit-animation: move-33 3s ease-in-out infinite;
+          animation: move-33 3s ease-in-out infinite;
+}
+.wave .dot-34 {
+  -webkit-animation: move-34 3s ease-in-out infinite;
+          animation: move-34 3s ease-in-out infinite;
+}
+.wave .dot-35 {
+  -webkit-animation: move-35 3s ease-in-out infinite;
+          animation: move-35 3s ease-in-out infinite;
+}
+.wave .dot-36 {
+  -webkit-animation: move-36 3s ease-in-out infinite;
+          animation: move-36 3s ease-in-out infinite;
+}
+.wave .dot-37 {
+  -webkit-animation: move-37 3s ease-in-out infinite;
+          animation: move-37 3s ease-in-out infinite;
+}
+.wave .dot-38 {
+  -webkit-animation: move-38 3s ease-in-out infinite;
+          animation: move-38 3s ease-in-out infinite;
+}
+.wave .dot-39 {
+  -webkit-animation: move-39 3s ease-in-out infinite;
+          animation: move-39 3s ease-in-out infinite;
+}
+.wave .dot-40 {
+  -webkit-animation: move-40 3s ease-in-out infinite;
+          animation: move-40 3s ease-in-out infinite;
+}
+.wave .dot-41 {
+  -webkit-animation: move-41 3s ease-in-out infinite;
+          animation: move-41 3s ease-in-out infinite;
+}
+.wave .dot-42 {
+  -webkit-animation: move-42 3s ease-in-out infinite;
+          animation: move-42 3s ease-in-out infinite;
+}
+.wave .dot-43 {
+  -webkit-animation: move-43 3s ease-in-out infinite;
+          animation: move-43 3s ease-in-out infinite;
+}
+.wave .dot-44 {
+  -webkit-animation: move-44 3s ease-in-out infinite;
+          animation: move-44 3s ease-in-out infinite;
+}
+.wave .dot-45 {
+  -webkit-animation: move-45 3s ease-in-out infinite;
+          animation: move-45 3s ease-in-out infinite;
+}
+.wave .dot-46 {
+  -webkit-animation: move-46 3s ease-in-out infinite;
+          animation: move-46 3s ease-in-out infinite;
+}
+.wave .dot-47 {
+  -webkit-animation: move-47 3s ease-in-out infinite;
+          animation: move-47 3s ease-in-out infinite;
+}
+.wave .dot-48 {
+  -webkit-animation: move-48 3s ease-in-out infinite;
+          animation: move-48 3s ease-in-out infinite;
+}
+.wave .dot-49 {
+  -webkit-animation: move-49 3s ease-in-out infinite;
+          animation: move-49 3s ease-in-out infinite;
+}
+.wave .dot-50 {
+  -webkit-animation: move-50 3s ease-in-out infinite;
+          animation: move-50 3s ease-in-out infinite;
+}
+.wave .dot-51 {
+  -webkit-animation: move-51 3s ease-in-out infinite;
+          animation: move-51 3s ease-in-out infinite;
+}
+.wave .dot-52 {
+  -webkit-animation: move-52 3s ease-in-out infinite;
+          animation: move-52 3s ease-in-out infinite;
+}
+.wave .dot-53 {
+  -webkit-animation: move-53 3s ease-in-out infinite;
+          animation: move-53 3s ease-in-out infinite;
+}
+.wave .dot-54 {
+  -webkit-animation: move-54 3s ease-in-out infinite;
+          animation: move-54 3s ease-in-out infinite;
+}
+.wave .dot-55 {
+  -webkit-animation: move-55 3s ease-in-out infinite;
+          animation: move-55 3s ease-in-out infinite;
+}
+.wave .dot-56 {
+  -webkit-animation: move-56 3s ease-in-out infinite;
+          animation: move-56 3s ease-in-out infinite;
+}
+.wave .dot-57 {
+  -webkit-animation: move-57 3s ease-in-out infinite;
+          animation: move-57 3s ease-in-out infinite;
+}
+.wave .dot-58 {
+  -webkit-animation: move-58 3s ease-in-out infinite;
+          animation: move-58 3s ease-in-out infinite;
+}
+.wave .dot-59 {
+  -webkit-animation: move-59 3s ease-in-out infinite;
+          animation: move-59 3s ease-in-out infinite;
+}
+.wave .dot-60 {
+  -webkit-animation: move-60 3s ease-in-out infinite;
+          animation: move-60 3s ease-in-out infinite;
+}
+.wave .dot-61 {
+  -webkit-animation: move-61 3s ease-in-out infinite;
+          animation: move-61 3s ease-in-out infinite;
+}
+.wave .dot-62 {
+  -webkit-animation: move-62 3s ease-in-out infinite;
+          animation: move-62 3s ease-in-out infinite;
+}
+.wave .dot-63 {
+  -webkit-animation: move-63 3s ease-in-out infinite;
+          animation: move-63 3s ease-in-out infinite;
+}
+.wave .dot-64 {
+  -webkit-animation: move-64 3s ease-in-out infinite;
+          animation: move-64 3s ease-in-out infinite;
+}
+.wave .dot-65 {
+  -webkit-animation: move-65 3s ease-in-out infinite;
+          animation: move-65 3s ease-in-out infinite;
+}
+.wave .dot-66 {
+  -webkit-animation: move-66 3s ease-in-out infinite;
+          animation: move-66 3s ease-in-out infinite;
+}
+.wave .dot-67 {
+  -webkit-animation: move-67 3s ease-in-out infinite;
+          animation: move-67 3s ease-in-out infinite;
+}
+.wave .dot-68 {
+  -webkit-animation: move-68 3s ease-in-out infinite;
+          animation: move-68 3s ease-in-out infinite;
+}
+.wave .dot-69 {
+  -webkit-animation: move-69 3s ease-in-out infinite;
+          animation: move-69 3s ease-in-out infinite;
+}
+.wave .dot-70 {
+  -webkit-animation: move-70 3s ease-in-out infinite;
+          animation: move-70 3s ease-in-out infinite;
+}
+.wave .dot-71 {
+  -webkit-animation: move-71 3s ease-in-out infinite;
+          animation: move-71 3s ease-in-out infinite;
+}
+.wave .dot-72 {
+  -webkit-animation: move-72 3s ease-in-out infinite;
+          animation: move-72 3s ease-in-out infinite;
+}
+.wave .dot-73 {
+  -webkit-animation: move-73 3s ease-in-out infinite;
+          animation: move-73 3s ease-in-out infinite;
+}
+.wave .dot-74 {
+  -webkit-animation: move-74 3s ease-in-out infinite;
+          animation: move-74 3s ease-in-out infinite;
+}
+.wave .dot-75 {
+  -webkit-animation: move-75 3s ease-in-out infinite;
+          animation: move-75 3s ease-in-out infinite;
+}
+.wave .dot-76 {
+  -webkit-animation: move-76 3s ease-in-out infinite;
+          animation: move-76 3s ease-in-out infinite;
+}
+.wave .dot-77 {
+  -webkit-animation: move-77 3s ease-in-out infinite;
+          animation: move-77 3s ease-in-out infinite;
+}
+.wave .dot-78 {
+  -webkit-animation: move-78 3s ease-in-out infinite;
+          animation: move-78 3s ease-in-out infinite;
+}
+.wave .dot-79 {
+  -webkit-animation: move-79 3s ease-in-out infinite;
+          animation: move-79 3s ease-in-out infinite;
+}
+.wave .dot-80 {
+  -webkit-animation: move-80 3s ease-in-out infinite;
+          animation: move-80 3s ease-in-out infinite;
+}
+.wave .dot-81 {
+  -webkit-animation: move-81 3s ease-in-out infinite;
+          animation: move-81 3s ease-in-out infinite;
+}
+.wave .dot-82 {
+  -webkit-animation: move-82 3s ease-in-out infinite;
+          animation: move-82 3s ease-in-out infinite;
+}
+.wave .dot-83 {
+  -webkit-animation: move-83 3s ease-in-out infinite;
+          animation: move-83 3s ease-in-out infinite;
+}
+.wave .dot-84 {
+  -webkit-animation: move-84 3s ease-in-out infinite;
+          animation: move-84 3s ease-in-out infinite;
+}
+.wave .dot-85 {
+  -webkit-animation: move-85 3s ease-in-out infinite;
+          animation: move-85 3s ease-in-out infinite;
+}
+.wave .dot-86 {
+  -webkit-animation: move-86 3s ease-in-out infinite;
+          animation: move-86 3s ease-in-out infinite;
+}
+.wave .dot-87 {
+  -webkit-animation: move-87 3s ease-in-out infinite;
+          animation: move-87 3s ease-in-out infinite;
+}
+.wave .dot-88 {
+  -webkit-animation: move-88 3s ease-in-out infinite;
+          animation: move-88 3s ease-in-out infinite;
+}
+.wave .dot-89 {
+  -webkit-animation: move-89 3s ease-in-out infinite;
+          animation: move-89 3s ease-in-out infinite;
+}
+.wave .dot-90 {
+  -webkit-animation: move-90 3s ease-in-out infinite;
+          animation: move-90 3s ease-in-out infinite;
+}
+.wave .dot-91 {
+  -webkit-animation: move-91 3s ease-in-out infinite;
+          animation: move-91 3s ease-in-out infinite;
+}
+.wave .dot-92 {
+  -webkit-animation: move-92 3s ease-in-out infinite;
+          animation: move-92 3s ease-in-out infinite;
+}
+.wave .dot-93 {
+  -webkit-animation: move-93 3s ease-in-out infinite;
+          animation: move-93 3s ease-in-out infinite;
+}
+.wave .dot-94 {
+  -webkit-animation: move-94 3s ease-in-out infinite;
+          animation: move-94 3s ease-in-out infinite;
+}
+.wave .dot-95 {
+  -webkit-animation: move-95 3s ease-in-out infinite;
+          animation: move-95 3s ease-in-out infinite;
+}
+.wave .dot-96 {
+  -webkit-animation: move-96 3s ease-in-out infinite;
+          animation: move-96 3s ease-in-out infinite;
+}
+.wave .dot-97 {
+  -webkit-animation: move-97 3s ease-in-out infinite;
+          animation: move-97 3s ease-in-out infinite;
+}
+.wave .dot-98 {
+  -webkit-animation: move-98 3s ease-in-out infinite;
+          animation: move-98 3s ease-in-out infinite;
+}
+.wave .dot-99 {
+  -webkit-animation: move-99 3s ease-in-out infinite;
+          animation: move-99 3s ease-in-out infinite;
+}
+.wave .dot-100 {
+  -webkit-animation: move-100 3s ease-in-out infinite;
+          animation: move-100 3s ease-in-out infinite;
+}
+.wave .dot-101 {
+  -webkit-animation: move-101 3s ease-in-out infinite;
+          animation: move-101 3s ease-in-out infinite;
+}
+.wave .dot-102 {
+  -webkit-animation: move-102 3s ease-in-out infinite;
+          animation: move-102 3s ease-in-out infinite;
+}
+.wave .dot-103 {
+  -webkit-animation: move-103 3s ease-in-out infinite;
+          animation: move-103 3s ease-in-out infinite;
+}
+.wave .dot-104 {
+  -webkit-animation: move-104 3s ease-in-out infinite;
+          animation: move-104 3s ease-in-out infinite;
+}
+.wave .dot-105 {
+  -webkit-animation: move-105 3s ease-in-out infinite;
+          animation: move-105 3s ease-in-out infinite;
+}
+.wave .dot-106 {
+  -webkit-animation: move-106 3s ease-in-out infinite;
+          animation: move-106 3s ease-in-out infinite;
+}
+.wave .dot-107 {
+  -webkit-animation: move-107 3s ease-in-out infinite;
+          animation: move-107 3s ease-in-out infinite;
+}
+.wave .dot-108 {
+  -webkit-animation: move-108 3s ease-in-out infinite;
+          animation: move-108 3s ease-in-out infinite;
+}
+.wave .dot-109 {
+  -webkit-animation: move-109 3s ease-in-out infinite;
+          animation: move-109 3s ease-in-out infinite;
+}
+.wave .dot-110 {
+  -webkit-animation: move-110 3s ease-in-out infinite;
+          animation: move-110 3s ease-in-out infinite;
+}
+.wave .dot-111 {
+  -webkit-animation: move-111 3s ease-in-out infinite;
+          animation: move-111 3s ease-in-out infinite;
+}
+.wave .dot-112 {
+  -webkit-animation: move-112 3s ease-in-out infinite;
+          animation: move-112 3s ease-in-out infinite;
+}
+.wave .dot-113 {
+  -webkit-animation: move-113 3s ease-in-out infinite;
+          animation: move-113 3s ease-in-out infinite;
+}
+.wave .dot-114 {
+  -webkit-animation: move-114 3s ease-in-out infinite;
+          animation: move-114 3s ease-in-out infinite;
+}
+.wave .dot-115 {
+  -webkit-animation: move-115 3s ease-in-out infinite;
+          animation: move-115 3s ease-in-out infinite;
+}
+.wave .dot-116 {
+  -webkit-animation: move-116 3s ease-in-out infinite;
+          animation: move-116 3s ease-in-out infinite;
+}
+.wave .dot-117 {
+  -webkit-animation: move-117 3s ease-in-out infinite;
+          animation: move-117 3s ease-in-out infinite;
+}
